@@ -9,7 +9,7 @@ import {
     FaTwitter,
     FaMediumM
 } from 'react-icons/fa';
-import Link from 'next/link'
+import Link from 'next/link';
 
 const NavBar = () => {
     const [openNav, setOpenNav] = useState(false);

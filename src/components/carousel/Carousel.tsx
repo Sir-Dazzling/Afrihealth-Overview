@@ -5,17 +5,17 @@ import 'react-slideshow-image/dist/styles.css';
 
 const fadeImages = [
     "/images/carousel/carousel1.png",
-    "/images/carousel/carousel1.png"
+    "/images/carousel/carousel2.png"
 ];
 
 const CarouselSection = () => {
     let carouselRef = useRef(null);
     let [currentCarouselNo, setCurrentCarouselNo] = useState(1);
     return (
-        <div className="flex flex-col space-y-5 lg:space-y-0 
-        sm:flex-row items-center justify-between px-2 md:px-10 lg:px-32 py-10">
-            <div className="flex flex-col justify-between space-y-10 xl:space-y-32">
-                <div className="space-y-10">
+        <div className="flex flex-col-reverse space-y-0 lg:space-y-0 
+        sm:flex-row items-center justify-between px-2 md:px-10 lg:px-32 lg:py-10">
+            <div className="flex pt-10 sm:pt-0 flex-col justify-between space-y-5 xl:space-y-32">
+                <div className="space-y-1 lg:space-y-10">
                     <div className="flex flex-col">
                         <span className="text-3xl lg:text-7xl font-bold tracking-wider">in touch.</span>
                         <span className="text-3xl lg:text-7xl font-bold tracking-wider">in the moment.</span>
@@ -30,7 +30,7 @@ const CarouselSection = () => {
                             size={18} />
                     </div>
                 </div>
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center space-x-3 pb-5 sm:pb-0 bg-gray-100">
                     <div className="flex items-center space-x-3 font-medium text-lg">
                         <span>0{currentCarouselNo}</span>
                         <span className="text-gray-500">/ 02</span>
@@ -56,7 +56,6 @@ const CarouselSection = () => {
                 <div className="slide-container">
                     <Fade
                         onChange={(e) => {
-                            console.log(e);
                             setCurrentCarouselNo(e + 1);
                         }}
                         ref={carouselRef}
