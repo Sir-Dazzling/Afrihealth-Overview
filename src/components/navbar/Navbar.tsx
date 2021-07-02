@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useRouter } from 'next/router'
 import { FiMenu } from 'react-icons/fi';
 import { CgClose } from 'react-icons/cg';
 import {
@@ -13,8 +14,8 @@ import Link from 'next/link';
 
 const NavBar = () => {
     const [openNav, setOpenNav] = useState(false);
-    let url = window.location.href;
-    
+    let url2 = useRouter().asPath;
+
     return (
         <>
             <nav className="bg-gray-100 relative top-0 flex justify-between items-center
@@ -52,28 +53,28 @@ const NavBar = () => {
                     <div className="flex flex-col lg:flex-row space-y-24 lg:space-y-0 lg:space-x-32">
                         <div className="flex flex-col space-y-10 items-start">
                             <Link href="/">
-                                <span className={`${url === "http://localhost:3000/" && "text-purple-700"} text-3xl lg:text-4xl font-bold cursor-pointer`}>
+                                <span className={`${url2 === "/" && "text-purple-700"} text-3xl lg:text-4xl font-bold cursor-pointer`}>
                                     home <sup>01</sup>
                                 </span>
                             </Link>
 
                             <Link href="/about">
-                                <span className={`${url.includes("about") && "text-purple-700"} cursor-pointer text-3xl lg:text-4xl font-bold`}>
+                                <span className={`${url2.includes("about") && "text-purple-700"} cursor-pointer text-3xl lg:text-4xl font-bold`}>
                                     about us <sup>02</sup>
                                 </span>
                             </Link>
                             <Link href="/product">
-                                <span className={`${url.includes("product") && "text-purple-700"} cursor-pointer text-3xl lg:text-4xl font-bold`}>
+                                <span className={`${url2.includes("product") && "text-purple-700"} cursor-pointer text-3xl lg:text-4xl font-bold`}>
                                     our product <sup>03</sup>
                                 </span>
                             </Link>
                             <Link href="/pricing">
-                                <span className={`${url.includes("pricing") && "text-purple-700"} cursor-pointer text-3xl lg:text-4xl font-bold`}>
+                                <span className={`${url2.includes("pricing") && "text-purple-700"} cursor-pointer text-3xl lg:text-4xl font-bold`}>
                                     pricing <sup>04</sup>
                                 </span>
                             </Link>
                             <Link href="/contact_us">
-                                <span className={`${url.includes("contact_us") && "text-purple-700"} cursor-pointer text-3xl lg:text-4xl font-bold`}>
+                                <span className={`${url2.includes("contact_us") && "text-purple-700"} cursor-pointer text-3xl lg:text-4xl font-bold`}>
                                     contact us <sup>05</sup>
                                 </span>
                             </Link>
