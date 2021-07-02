@@ -30,7 +30,7 @@ export const sampleHealthData: TelecareItemTypes[] = [
     type: "ambulance",
   },
   {
-    id: 2,
+    id: 5,
     desc: "is quick reliable and focused ecosystem that suits you, we believe that everyone no matter the social status deserves access to premium healthcare",
     imageUrl: "/images/telecare/2.png",
     link: "/book",

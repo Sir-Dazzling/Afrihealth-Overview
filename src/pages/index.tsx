@@ -7,6 +7,10 @@ import ScrollToTop from 'react-scroll-to-top';
 import { FaChevronUp } from 'react-icons/fa';
 import AppSection from '../components/home/AppSection';
 import MedicalAccessSection from '../components/home/MedicalAccessSection';
+import BenefitsSection from '../components/home/BenefitsSection';
+import TestimonialSection from '../components/TestimonialsSection';
+import SpecialistForm from '../components/home/SpecialistForm';
+import Footer from '../components/Footer';
 
 const IndexPage = () => {
   return (
@@ -22,6 +26,10 @@ const IndexPage = () => {
         <Telecare />
         <AppSection />
         <MedicalAccessSection />
+        <BenefitsSection />
+        <TestimonialSection />
+        <SpecialistForm />
+        <Footer />
       </div>
       <ScrollToTop
         style={{

@@ -5,7 +5,7 @@ import 'react-slideshow-image/dist/styles.css';
 
 const fadeImages = [
     "/images/carousel/carousel1.png",
-    "/images/carousel/carousel2.png"
+    "/images/carousel/carousel3.png"
 ];
 
 const CarouselSection = () => {

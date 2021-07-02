@@ -4,11 +4,11 @@ import { FaPlusCircle } from "react-icons/fa";
 const MedicalAccessSection = () => {
     return (
         <div className="flex flex-col lg:flex-row 
-        bg-gray-100 py-16 px-2 md:px-10 lg:px-12 sm:space-x-20">
-            <div className="bg-white py-8 px-5 lg:px-10 lg:w-3/5 rounded-3xl">
+        bg-gray-100 py-16 px-2 md:px-10 lg:px-32 lg:space-x-20">
+            <div className="bg-white py-8 px-5 lg:px-10 lg:w-2/3 rounded-3xl">
                 <div className="space-y-5">
                     <p className="text-xl font-bold">Real Time Medical Access</p>
-                    <p className="text-lg lg:text-xl tracking-wider w-3/4">
+                    <p className="text-lg lg:text-xl tracking-wider w-2/3">
                         we provide a low cost and high-quality care for everyone by connecting
                         medical experts to patients at the convenience of their homes/office
                     </p>
@@ -20,7 +20,7 @@ const MedicalAccessSection = () => {
                         src="/images/medical_access/med_access.png" />
                 </div>
             </div>
-            <div className="lg:w-1/4 bg-black text-white py-8 px-5 lg:px-10 rounded-3xl
+            <div className="lg:w-1/3 bg-black text-white py-8 px-5 lg:px-10 rounded-3xl
             space-y-10">
                 <div className="flex justify-between items-center text-white">
                     <div className="text-xl font-bold">
@@ -28,7 +28,7 @@ const MedicalAccessSection = () => {
                     </div>
                     <FaPlusCircle
                         className="text-white"
-                        size={32} />
+                        size={48} />
                 </div>
                 <img 
                 className="h-28"

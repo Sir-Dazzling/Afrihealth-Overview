@@ -3,8 +3,8 @@ import { FaChevronRight } from 'react-icons/fa';
 
 const Healthcare = () => {
     return (
-        <div className="bg-white relative flex flex-col sm:flex-row justify-between 
-        px-2 md:px-10 lg:px-32 py-16 sm:space-x-20 space-y-10 sm:space-y-0 items-center">
+        <div className="bg-white relative flex flex-col lg:flex-row justify-between 
+        px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0 items-center">
             <img
                 className="h-80"
                 src="/images/earth.png" />
@@ -17,7 +17,7 @@ const Healthcare = () => {
                         for everyone
                     </p>
                 </div>
-                <p className="sm:w-3/4 text-lg lg:text-xl tracking-wider">
+                <p className="lg:w-3/4 text-lg lg:text-xl tracking-wider">
                     at afrihealth we aim to create an easy and accessible flow of
                     quality health care to everyone in africa and the world at large.
                     The importance of quality health care is uncontested and we belive
