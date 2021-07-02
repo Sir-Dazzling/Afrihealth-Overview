@@ -1,6 +1,5 @@
 import React from "react";
-import { FaApple, FaPlusCircle } from "react-icons/fa";
-import { IoLogoGooglePlaystore } from "react-icons/io5";
+import { FaPlusCircle } from "react-icons/fa";
 
 const MissonSection = () => {
     return (

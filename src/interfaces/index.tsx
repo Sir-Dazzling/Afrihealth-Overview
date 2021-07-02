@@ -29,3 +29,10 @@ export type TeamMemberItemProps = {
   lastname: string;
   position: string
 };
+
+export type PricingItemProps = {
+  title: string;
+  desc: string;
+  price: number;
+  color: string;
+};

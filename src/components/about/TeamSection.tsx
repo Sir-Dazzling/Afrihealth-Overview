@@ -15,7 +15,7 @@ const TeamSection = () => {
                         to your doorsteps
                     </p>
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-24 lg:px-28">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-24 lg:px-28">
                     <MemberItem
                         firstName="Adolf"
                         lastname="Wabara"
@@ -36,7 +36,7 @@ const TeamSection = () => {
                 </div>
             </div>
 
-            <div className="lg:px-12 lg:space-y-20">
+            <div className="lg:px-12 py-10 lg:py-0 lg:space-y-20">
                 <div className="space-y-10">
                     <p className="text-3xl lg:text-7xl font-bold tracking-wider">
                         our partners
@@ -49,7 +49,7 @@ const TeamSection = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 lg:grid-cols-3 lg:gap-40">
+                <div className="grid grid-cols-1 py-10 lg:py-0 lg:grid-cols-3 lg:gap-40">
                     <img
                         src="/images/team/partner_1.png" />
                     <img
