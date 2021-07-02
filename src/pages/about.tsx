@@ -2,6 +2,10 @@ import React from 'react'
 import { FaChevronUp } from 'react-icons/fa'
 import ScrollToTop from 'react-scroll-to-top'
 import BannerSection from '../components/about/BannerSection'
+import MissonSection from '../components/about/MissonSection'
+import MoreInfoSection from '../components/about/MoreInfoSection'
+import TeamSection from '../components/about/TeamSection'
+import Footer from '../components/Footer'
 import Layout from '../components/Layout'
 import NavBar from '../components/navbar/Navbar'
 
@@ -14,6 +18,10 @@ const AboutPage = () => (
     </div>
     <div className="relative">
       <BannerSection />
+      <MoreInfoSection />
+      <MissonSection />
+      <TeamSection />
+      <Footer />
     </div>
     <ScrollToTop
       style={{
