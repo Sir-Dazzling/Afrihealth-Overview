@@ -1,18 +1,11 @@
 import React from "react";
 import { FaChevronUp } from "react-icons/fa";
 import ScrollToTop from "react-scroll-to-top";
-import BannerSection from "../components/product/BannerSection";
-import FormSection from "../components/contact_us/FormSection";
-import Footer from "../components/Footer";
-import Layout from "../components/Layout";
-import NavBar from "../components/navbar/Navbar";
-import ProductDescriptionSection from "../components/product/ProductDescriptionSection";
-import TestimonialSection from "../components/TestimonialsSection";
-import SpecialistForm from "../components/home/SpecialistForm";
-import PolarisSection from "../components/product/PolarisSection";
-import PiconSection from "../components/product/PiconSection";
+import Footer from "../../components/Footer";
+import Layout from "../../components/Layout";
+import NavBar from "../../components/navbar/Navbar";
 
-const ProductPage = () => {
+const RigourAppPage = () => {
     return (
         <Layout
             title="Welcome to Afrihealth"
@@ -22,12 +15,7 @@ const ProductPage = () => {
             </div>
             <div className="relative">
                 <div className="relative bg-gray-100">
-                    <BannerSection />
-                    <ProductDescriptionSection />
-                    <PolarisSection />
-                    <PiconSection />
-                    <TestimonialSection />
-                    <SpecialistForm />
+
                 </div>
                 <Footer />
             </div>
@@ -47,4 +35,4 @@ const ProductPage = () => {
     );
 };
 
-export default ProductPage;
+export default RigourAppPage;
