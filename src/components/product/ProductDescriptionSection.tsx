@@ -1,12 +1,13 @@
 import React from 'react';
 import { FaApple, FaChevronCircleRight, FaChevronRight } from 'react-icons/fa';
 import { IoLogoGooglePlaystore } from 'react-icons/io5';
+import Link from 'next/link';
 
 const ProductDescriptionSection = () => {
     return (
-        <div className="bg-purple-800 flex flex-col space-y-0 lg:space-y-0 justify-between px-2 md:px-10 lg:px-32 lg:py-10 text-white lg:mx-32 rounded-xl lg:space-y-0">
+        <div className="bg-purple-800 flex flex-col space-y-0 lg:space-y-0 justify-between px-2 md:px-10 py-5 lg:px-12 lg:py-10 text-white lg:mx-32 rounded-xl">
             <p className="font-bold text-xl lg:text-4xl tracking-wider">Rigour</p>
-            <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center">
+            <div className="relative flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:justify-between lg:items-center">
                 <div className="space-y-10">
                     <p className="font-bold text-xl lg:text-6xl tracking-wider">packed with special</p>
                     <p className="font-bold text-xl lg:text-6xl tracking-wider">features in mind</p>
@@ -46,8 +47,16 @@ const ProductDescriptionSection = () => {
                         </div>
                     </div>
                 </div>
-                <img
-                    src="/images/product/phone.png" />
+                <div>
+                    <img
+                        src="/images/product/phone.png" />
+                </div>
+                <Link href="/products/rigour_app">
+                    <div className="justify-self-end self-end cursor-pointer">
+                        <FaChevronCircleRight
+                            size={60} />
+                    </div>
+                </Link>
             </div>
         </div>
     );
