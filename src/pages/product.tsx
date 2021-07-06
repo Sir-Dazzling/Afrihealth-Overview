@@ -2,7 +2,6 @@ import React from "react";
 import { FaChevronUp } from "react-icons/fa";
 import ScrollToTop from "react-scroll-to-top";
 import BannerSection from "../components/product/BannerSection";
-import FormSection from "../components/contact_us/FormSection";
 import Footer from "../components/Footer";
 import Layout from "../components/Layout";
 import NavBar from "../components/navbar/Navbar";

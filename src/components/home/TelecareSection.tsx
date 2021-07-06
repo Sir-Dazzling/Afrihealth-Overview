@@ -1,9 +1,6 @@
 import React from "react";
-import { FaChevronRight } from 'react-icons/fa';
-import { TelecareItemTypes } from "../../interfaces";
-import Link from 'next/link';
+import { breakPoints, sampleHealthData } from '../../../utils/sample-data';
 import HealthCarousel from "./health/HealthCarousel";
-import { sampleHealthData, breakPoints } from '../../../utils/sample-data';
 
 const Telecare = () => {
     return (
