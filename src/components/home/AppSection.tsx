@@ -19,7 +19,7 @@ const AppSection = () => {
                 <div className="space-y-5 lg:space-y-10">
                     <div className="text-xl lg:text-4xl font-bold 
                     tracking-wider text-white space-y-1">
-                        <p>you don't have to</p>
+                        <p>you don&apos;t have to</p>
                         <p>lose a loved one</p>
                         <p>carelessly</p>
                     </div>

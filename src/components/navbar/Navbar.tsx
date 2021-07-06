@@ -34,8 +34,6 @@ const NavBar = () => {
                     className="bg-gray-200 text-gray-400 p-2 cursor-pointer"
                     onClick={() => setOpenNav(true)} />
             </nav>
-
-            {/* Popover menu */}
             {openNav && <div
                 className="bg-gray-100 h-screen top-0 bottom-0 absolute z-10 left-1/2 transform -translate-x-1/2 px-2 w-screen sm:px-0 flex justify-between">
                 <div className="hidden lg:block relative h-screen bg-purple-normal w-1/4 xl:w-1/5">

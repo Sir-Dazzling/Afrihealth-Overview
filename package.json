@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
-    "dev2": "next dev -p 3005",
     "build": "next build",
     "start": "next start",
     "type-check": "tsc",
@@ -31,6 +30,8 @@
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
     "autoprefixer": "10.0.2",
+    "eslint": "^7.30.0",
+    "eslint-config-next": "^11.0.1",
     "next": "latest",
     "postcss": "8.1.10",
     "postcss-cli": "^8.3.1",

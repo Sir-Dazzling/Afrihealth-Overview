@@ -18,7 +18,7 @@ const BenefitsSection = () => {
                 <div className="space-y-5 lg:space-y-10">
                     <div className="text-xl lg:text-4xl font-bold 
                     tracking-wider text-black space-y-1">
-                        <p>don't just take our</p>
+                        <p>don&apos;t just take our</p>
                         <p>word for it. we</p>
                         <p>are changing the idealogy of healthcare</p>
                     </div>

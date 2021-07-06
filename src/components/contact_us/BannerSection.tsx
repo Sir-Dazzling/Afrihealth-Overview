@@ -10,7 +10,7 @@ const BannerSection = () => {
                         <p className="font-bold text-lg lg:text-3xl">contact us</p>
                         <div>
                             <p className="text-2xl lg:text-7xl font-bold tracking-wider">
-                                we can't wait to hear
+                                we can&apos;t wait to hear
                             </p>
                             <p className="text-2xl lg:text-7xl font-bold tracking-wider">
                                 from you!
