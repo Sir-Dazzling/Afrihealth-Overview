@@ -5,7 +5,7 @@ const MissonSection = () => {
     return (
         <div className="bg-gray-100 flex flex-col-reverse lg:flex-row
         px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0">
-            <div className="bg-green-600 rounded-3xl py-10 px-5 lg:px-10 lg:w-1/3
+            <div className="bg-green-normal rounded-3xl py-10 px-5 lg:px-10 lg:w-1/3
             space-y-10 lg:space-y-32">
                 <div className="flex justify-between items-center text-white">
                     <div className="text-xl lg:text-2xl font-bold">

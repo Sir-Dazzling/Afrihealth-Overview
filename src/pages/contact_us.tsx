@@ -10,7 +10,7 @@ import NavBar from '../components/navbar/Navbar'
 const ContactUsPage = () => (
   <Layout
     title="Welcome to Afrihealth"
-    className="bg-gray-100 h-screen">
+    className="bg-gray-normal h-screen">
     <div className="sticky top-0 z-40">
       <NavBar />
     </div>
@@ -24,7 +24,7 @@ const ContactUsPage = () => (
     <ScrollToTop
       style={{
         borderRadius: 50,
-        backgroundColor: "purple",
+        backgroundColor: "#56259b",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",

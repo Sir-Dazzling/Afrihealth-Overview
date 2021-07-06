@@ -29,7 +29,7 @@ const PiconSection = () => {
                 </div>
                 <div className="lg:w-3/4">
                     <img
-                        src="/images/product/2.png" />
+                        src="/images/product/laptop.png" />
                 </div>
 
             </div>

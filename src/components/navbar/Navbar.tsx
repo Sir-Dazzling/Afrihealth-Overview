@@ -18,8 +18,11 @@ const NavBar = () => {
 
     return (
         <>
-            <nav className="bg-gray-100 relative top-0 flex justify-between items-center
-        px-2 md:px-10 lg:px-32 py-5">
+            <nav className={`${url2.includes("about") ? "bg-gray-other"
+                : url2.includes("contact_us") ? "bg-blue-light"
+                    : url2.includes("rigour_app") ? "bg-gray-heavy"
+                        : "bg-gray-normal"} relative top-0 flex justify-between items-center
+        px-2 md:px-10 lg:px-32 py-5`}>
                 <Link href="/">
                     <img
                         src="/images/logo.png"
@@ -35,7 +38,7 @@ const NavBar = () => {
             {/* Popover menu */}
             {openNav && <div
                 className="bg-gray-100 h-screen top-0 bottom-0 absolute z-10 left-1/2 transform -translate-x-1/2 px-2 w-screen sm:px-0 flex justify-between">
-                <div className="hidden lg:block relative h-screen bg-purple-600 w-1/4 xl:w-1/5">
+                <div className="hidden lg:block relative h-screen bg-purple-normal w-1/4 xl:w-1/5">
                     <img
                         src="/images/pills.png"
                         className="absolute top-20 left-28 lg:left-36 xl:left-44 right-0 lg:h-96 lg:w-96 rounded-3xl" />
@@ -53,7 +56,7 @@ const NavBar = () => {
                     <div className="flex flex-col lg:flex-row space-y-24 lg:space-y-0 lg:space-x-32">
                         <div className="flex flex-col space-y-10 items-start">
                             <Link href="/">
-                                <span className={`${url2 === "/" && "text-purple-700"} text-3xl lg:text-4xl font-bold cursor-pointer`}>
+                                <span className={`${url2 === "/" && "text-purple-normal"} text-3xl lg:text-4xl font-bold cursor-pointer`}>
                                     home <sup>01</sup>
                                 </span>
                             </Link>
@@ -80,7 +83,7 @@ const NavBar = () => {
                             </Link>
 
                             <div className="flex justify-between w-full
-                        text-blue-500">
+                        text-blue-normal">
                                 <span className="cursor-pointer">Privacy Policy</span>
                                 <span className="cursor-pointer">Terms Of Use</span>
                             </div>
@@ -103,7 +106,7 @@ const NavBar = () => {
                                     color="white"
                                     size={32} />
                                 <FaMediumM
-                                    className="bg-purple-600 p-2 rounded-full cursor-pointer"
+                                    className="bg-purple-normal p-2 rounded-full cursor-pointer"
                                     color="white"
                                     size={32} />
                             </div>
