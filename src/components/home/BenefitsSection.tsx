@@ -5,7 +5,7 @@ const BenefitsSection = () => {
     return (
         <div className="bg-gray-100 flex flex-col lg:flex-row justify-between 
         px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0">
-            <div className="bg-green-300 rounded-3xl py-3 px-5 lg:px-10 lg:w-1/3
+            <div className="bg-green-light rounded-3xl py-3 px-5 lg:px-10 lg:w-1/3
             space-y-10 lg:space-y-32">
                 <div className="flex justify-between items-center text-black">
                     <div className="text-3xl font-bold">
@@ -27,9 +27,9 @@ const BenefitsSection = () => {
                         <p>is just a click away</p>
                     </div>
                     <div className="flex items-center space-x-3 cursor-pointer lg:pb-10">
-                        <span className="text-blue-600 text-lg lg:text-xl tracking-wider">learn more</span>
+                        <span className="text-blue-normal text-lg lg:text-xl tracking-wider">learn more</span>
                         <FaChevronRight
-                            className="text-blue-600"
+                            className="text-blue-normal"
                             size={18} />
                     </div>
                 </div>
@@ -80,7 +80,7 @@ const BenefitsSection = () => {
                 <div>
                     <img
                     className="h-48"
-                    src="/images/benefit/1.png" />
+                    src="/images/product/laptop.png" />
                 </div>
             </div>
         </div>

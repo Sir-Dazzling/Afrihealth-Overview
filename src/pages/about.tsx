@@ -26,7 +26,7 @@ const AboutPage = () => (
     <ScrollToTop
       style={{
         borderRadius: 50,
-        backgroundColor: "purple",
+        backgroundColor: "#56259b",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",

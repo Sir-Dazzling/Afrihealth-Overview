@@ -17,14 +17,7 @@ const Footer = () => {
             lg:px-24">
                 <div className="md:max-w-md lg:col-span-2">
                     <Link href="/">
-                        <div className="relative cursor-pointer">
-                            <img
-                                className="h-20"
-                                src="/images/logo_alt.png" />
-                            <p className="ml-16 text-base lg:text-lg tracking-wider">
-                                the future of telehealth
-                            </p>
-                        </div>
+                       <img src="/images/footer.png" />
                     </Link>
                 </div>
                 <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">

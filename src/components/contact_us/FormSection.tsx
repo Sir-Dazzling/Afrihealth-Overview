@@ -2,24 +2,23 @@ import React, { useState } from "react";
 import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 
 const FormSection = () => {
-    let [specialistDropdown, setSpecialistDropdown] = useState(false);
     let [partnerDropdown, setPartnerDropdown] = useState(false);
     let [partnerError, setPartnerError] = useState(true);
     return (
-        <div className="bg-gray-100 flex flex-col lg:flex-row px-2 md:px-10 lg:px-32 py-16 space-y-10 lg:space-y-10 lg:space-x-10">
-            <div className="bg-white px-5 py-10 lg:w-2/3">
+        <div className="bg-gray-normal flex flex-col lg:flex-row px-2 md:px-10 lg:px-32 py-16 space-y-10 lg:space-y-10 lg:space-x-10">
+            <div className="bg-white px-5 py-10 lg:w-2/3 lg:px-32">
                 <img
                     className="h-16"
                     src="/images/logo.png" />
 
-                <div className="bg-white lg:w-1/2 rounded-3xl space-y-10 
+                <div className="bg-white lg:w-full rounded-3xl space-y-10 
             py-8">
                     <div className="relative">
                         <p className="text-3xl lg:text-6xl tracking-wider font-bold">
                             Get in Touch
                         </p>
                     </div>
-                    <div className="grid grid-cols-6 gap-6">
+                    <div className="grid grid-cols-6 gap-3">
                         <div className="col-span-6 sm:col-span-3">
                             <input
                                 placeholder="First Name *"
@@ -113,22 +112,21 @@ const FormSection = () => {
                         text-xl w-full"/>
                     </div>
                     <p>By proceding, you agree to the <span 
-                    className="text-blue-500 underline cursor-pointer">
+                    className="text-blue-normal underline cursor-pointer">
                         Terms and Conditions</span></p>
                     <div className="flex items-center space-x-3 cursor-pointer lg:pb-10">
-                        <span className="text-blue-600 text-lg lg:text-xl tracking-wider">
+                        <span className="text-blue-normal text-lg lg:text-xl tracking-wider">
                             send request
                         </span>
                         <FaChevronRight
-                            className="text-blue-600"
+                            className="text-blue-normal"
                             size={18} />
                     </div>
                 </div>
             </div>
             <div className="lg:w-1/3">
                 <img
-                    className="rounded-t-full rounded-br-full rounded-bl-lg"
-                    src="/images/carousel/carousel2.png" />
+                    src="/images/contact_us/5.png" />
             </div>
         </div>
     );

@@ -2,8 +2,8 @@ import React from 'react';
 
 const BannerSection = () => {
     return (
-        <div className="flex flex-col-reverse space-y-0 lg:space-y-0 
-        sm:flex-row items-center justify-between px-2 md:px-10 lg:px-32 lg:py-10">
+        <div className="bg-gray-other flex flex-col-reverse space-y-0 lg:space-y-0 
+        sm:flex-row justify-between px-2 md:px-10 lg:px-32 lg:py-10">
             <div className="flex lg:py-20 flex-col justify-between space-y-5 xl:space-y-32 lg:w-2/3">
                 <div className="space-y-1 lg:space-y-10 py-10 lg:py-0">
                     <div className="flex flex-col lg:space-y-5">
@@ -28,10 +28,13 @@ const BannerSection = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full sm:w-1/3 lg:w-1/3">
+            <div className="w-full relative sm:w-1/3 lg:w-1/5">
                 <img
                     className=""
                     src="/images/about/1.png" />
+                <img
+                    className="absolute bottom-10 -left-40"
+                    src="/images/about/2.png" />
             </div>
         </div>
     );

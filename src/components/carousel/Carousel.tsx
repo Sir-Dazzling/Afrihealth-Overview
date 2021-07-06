@@ -4,7 +4,7 @@ import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 
 const fadeImages = [
-    "/images/carousel/carousel3.png",
+    "/images/carousel/africa.png",
     "/images/carousel/carousel2.png"
 ];
 
@@ -24,9 +24,9 @@ const CarouselSection = () => {
                         with all the healthcare needs right within your reach
                     </div>
                     <div className="flex items-center space-x-3 cursor-pointer">
-                        <span className="text-blue-600 text-lg lg:text-xl tracking-wider">learn more</span>
+                        <span className="text-blue-normal text-lg lg:text-xl tracking-wider">learn more</span>
                         <FaChevronRight
-                            className="text-blue-600"
+                            className="text-blue-normal"
                             size={18} />
                     </div>
                 </div>

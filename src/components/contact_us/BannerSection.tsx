@@ -1,10 +1,9 @@
 import React from 'react';
-import { IoIosHelpCircleOutline, IoMdHeartEmpty } from 'react-icons/io';
 
 const BannerSection = () => {
     return (
-        <div className="bg-green-100 flex flex-col-reverse space-y-0 lg:space-y-0 
-        sm:flex-row items-center justify-between px-2 md:px-10 lg:px-32 lg:py-10">
+        <div className="bg-blue-light flex flex-col-reverse space-y-0 lg:space-y-0 
+        sm:flex-row items-center px-2 md:px-10 lg:px-32 lg:py-10">
             <div className="flex lg:py-20 flex-col justify-between space-y-5 xl:space-y-32 lg:w-2/3">
                 <div className="space-y-1 lg:space-y-10 py-10 lg:py-0">
                     <div className="flex flex-col lg:space-y-5">
@@ -24,25 +23,26 @@ const BannerSection = () => {
                     <div className="flex space-x-5">
                         <div className="bg-white w-1/5 text-xl lg:text-xl tracking-wider
                         p-3 rounded-xl">
-                            <IoIosHelpCircleOutline
-                                size={48} />
+                            <img src="/images/contact_us/3.png" />
                             <p>Help</p>
                             <p>Center</p>
                         </div>
                         <div className="bg-white w-1/5 p-3 text-xl lg:text-xl 
                         tracking-wider rounded-xl">
-                            <IoMdHeartEmpty
-                                size={48} />
+                            <img src="/images/contact_us/4.png" />
                             <p>Customer</p>
                             <p>Support</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="w-full sm:w-1/3 lg:w-1/3">
+            <div className="w-full relative sm:w-1/3 lg:w-1/4">
                 <img
-                    className=""
+                    className="absolute z-20 -top-36 -right-20 h-60"
                     src="/images/contact_us/1.png" />
+                <img
+                    className="z-10"
+                    src="/images/contact_us/2.png" />
             </div>
         </div>
     );
