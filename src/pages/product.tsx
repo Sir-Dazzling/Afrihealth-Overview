@@ -9,12 +9,14 @@ import NavBar from "../components/navbar/Navbar";
 import ProductDescriptionSection from "../components/product/ProductDescriptionSection";
 import TestimonialSection from "../components/TestimonialsSection";
 import SpecialistForm from "../components/home/SpecialistForm";
+import PolarisSection from "../components/product/PolarisSection";
+import PiconSection from "../components/product/PiconSection";
 
 const ProductPage = () => {
     return (
         <Layout
             title="Welcome to Afrihealth"
-            className="bg-gray-100 h-screen">
+            className="bg-gray-normal h-screen">
             <div className="sticky top-0 z-40">
                 <NavBar />
             </div>
@@ -22,6 +24,8 @@ const ProductPage = () => {
                 <div className="relative bg-gray-100">
                     <BannerSection />
                     <ProductDescriptionSection />
+                    <PolarisSection />
+                    <PiconSection />
                     <TestimonialSection />
                     <SpecialistForm />
                 </div>
@@ -30,7 +34,7 @@ const ProductPage = () => {
             <ScrollToTop
                 style={{
                     borderRadius: 50,
-                    backgroundColor: "purple",
+                    backgroundColor: "#56259b",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",

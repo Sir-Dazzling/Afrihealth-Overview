@@ -11,7 +11,7 @@ const TeamSection = () => {
                         meet the team whose inspiration
                     </p>
                     <p className="text-3xl lg:text-7xl font-bold tracking-wider">
-                        brngs<span className="text-blue-600"> healthcare </span>
+                        brngs<span className="text-blue-normal"> healthcare </span>
                         to your doorsteps
                     </p>
                 </div>
@@ -51,11 +51,11 @@ const TeamSection = () => {
 
                 <div className="grid grid-cols-1 py-10 lg:py-0 lg:grid-cols-3 lg:gap-40">
                     <img
-                        src="/images/team/partner_1.png" />
+                        src="/images/team/the_guardian.png" />
                     <img
-                        src="/images/team/partner_2.png" />
+                        src="/images/team/nafdac.png" />
                     <img
-                        src="/images/team/partner_3.png" />
+                        src="/images/team/stroll.png" />
                 </div>
             </div>
         </div>

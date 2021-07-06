@@ -17,17 +17,17 @@ const PricingSection = () => {
                     desc="Best for new businesses or online businesses new to in-person selling"
                     price={29}
                     title="Standard afrihealth"
-                    color="green-600" />
+                    color="green-normal" />
                 <PricingItem
                     desc="Best for new businesses or online businesses new to in-person selling"
                     price={89}
                     title="Classic afrihealth"
-                    color="yellow-500" />
+                    color="yellow-normal" />
                 <PricingItem
                     desc="Best for new businesses or online businesses new to in-person selling"
                     price={290}
                     title="Premium afrihealth"
-                    color="purple-600" />
+                    color="purple-normal" />
             </div>
         </div>
     );
