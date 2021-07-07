@@ -17,21 +17,24 @@ const CarouselSection = () => {
             <div className="flex pt-10 sm:pt-0 flex-col justify-between space-y-5 xl:space-y-32">
                 <div className="space-y-1 lg:space-y-10">
                     <div className="flex flex-col">
-                        <span className="text-3xl lg:text-7xl font-bold tracking-wider">in touch.</span>
-                        <span className="text-3xl lg:text-7xl font-bold tracking-wider">in the moment.</span>
+                        <span className="text-3xl lg:text-7xl font-bold tracking-wider
+                        font-custom">in touch.</span>
+                        <span className="text-3xl lg:text-7xl font-bold tracking-wider
+                        font-custom">in the moment.</span>
                     </div>
-                    <div className="text-lg lg:text-xl tracking-wider">
+                    <div className="text-lg lg:text-xl tracking-wider font-custom">
                         with all the healthcare needs right within your reach
                     </div>
                     <div className="flex items-center space-x-3 cursor-pointer">
-                        <span className="text-blue-normal text-lg lg:text-xl tracking-wider">learn more</span>
+                        <span className="text-blue-normal text-lg lg:text-xl tracking-wider font-custom">learn more</span>
                         <FaChevronRight
                             className="text-blue-normal"
-                            size={18} />
+                            size={23} />
                     </div>
                 </div>
                 <div className="flex items-center space-x-3 pb-5 sm:pb-0 bg-gray-100">
-                    <div className="flex items-center space-x-3 font-medium text-lg">
+                    <div className="flex items-center space-x-3 font-medium text-lg 
+                    font-custom">
                         <span>0{currentCarouselNo}</span>
                         <span className="text-gray-500">/ 02</span>
                     </div>

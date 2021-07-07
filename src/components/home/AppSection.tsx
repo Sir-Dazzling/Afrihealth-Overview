@@ -4,7 +4,7 @@ import { FaPlusCircle } from 'react-icons/fa';
 const AppSection = () => {
     return (
         <div className="bg-gray-100 flex flex-col-reverse lg:flex-row
-        px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0">
+        px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-custom">
             <div className="bg-purple-normal rounded-3xl py-3 px-5 lg:px-10 lg:w-1/3
             space-y-10 lg:space-y-32">
                 <div className="flex justify-between items-center text-white">

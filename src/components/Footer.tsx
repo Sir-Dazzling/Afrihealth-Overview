@@ -14,7 +14,7 @@ const Footer = () => {
     return (
         <div className="bg-gray-100 px-4 lg:pt-16 sm:max-w-xl md:max-w-full sm:w-full focus-within md:px-24 lg:px-8">
             <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6
-            lg:px-24">
+            lg:px-24 font-custom">
                 <div className="md:max-w-md lg:col-span-2">
                     <Link href="/">
                        <img src="/images/footer.png" />

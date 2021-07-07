@@ -4,7 +4,7 @@ import { FaPlusCircle } from "react-icons/fa";
 const MedicalAccessSection = () => {
     return (
         <div className="flex flex-col lg:flex-row 
-        bg-gray-100 py-16 px-2 md:px-10 lg:px-32 lg:space-x-20">
+        bg-gray-100 py-16 px-2 md:px-10 lg:px-32 lg:space-x-20 font-custom">
             <div className="bg-white py-8 px-5 lg:px-10 lg:w-2/3 rounded-3xl">
                 <div className="space-y-5">
                     <p className="text-xl font-bold">Real Time Medical Access</p>

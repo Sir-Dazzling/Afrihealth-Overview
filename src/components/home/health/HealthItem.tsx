@@ -14,7 +14,7 @@ const TelecareItem = ({
             <img
                 className="h-28"
                 src={imageUrl} />
-            <div className="text-lg text-left lg:text-xl tracking-wider">
+            <div className="text-lg text-left lg:text-xl tracking-wider w-2/3">
                 <span className="font-bold mr-1">
                     {type === "ambulance" ? "ambulance service" : type === "telemedicine" ? "telemedicine " : "track and trace"}
                 </span>

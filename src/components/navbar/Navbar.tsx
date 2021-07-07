@@ -22,7 +22,7 @@ const NavBar = () => {
                 : url2.includes("contact_us") ? "bg-blue-light"
                     : url2.includes("rigour_app") ? "bg-gray-heavy"
                         : "bg-gray-normal"} relative top-0 flex justify-between items-center
-        px-2 md:px-10 lg:px-32 py-5`}>
+        px-2 md:px-10 lg:px-32 py-5 font-custom`}>
                 <Link href="/">
                     <img
                         src="/images/logo.png"
@@ -35,7 +35,7 @@ const NavBar = () => {
                     onClick={() => setOpenNav(true)} />
             </nav>
             {openNav && <div
-                className="bg-gray-100 h-screen top-0 bottom-0 absolute z-10 left-1/2 transform -translate-x-1/2 px-2 w-screen sm:px-0 flex justify-between">
+                className="bg-gray-100 h-screen top-0 bottom-0 absolute z-10 left-1/2 transform -translate-x-1/2 px-2 w-screen sm:px-0 flex justify-between font-custom">
                 <div className="hidden lg:block relative h-screen bg-purple-normal w-1/4 xl:w-1/5">
                     <img
                         src="/images/pills.png"

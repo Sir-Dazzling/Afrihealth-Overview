@@ -8,7 +8,7 @@ const SpecialistForm = () => {
 
     return (
         <div className="bg-gray-100 flex flex-col lg:flex-row justify-between 
-        px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0">
+        px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-custom">
             <div className="bg-blue-normal lg:w-1/2 rounded-3xl space-y-10 
             py-8 px-5 lg:px-10">
                 <p className="text-xl lg:text-4xl tracking-wider text-white font-bold">
