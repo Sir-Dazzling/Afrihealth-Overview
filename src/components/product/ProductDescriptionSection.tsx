@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const ProductDescriptionSection = () => {
     return (
-        <div className="bg-purple-normal flex flex-col space-y-0 lg:space-y-0 justify-between px-2 md:px-10 pt-5 lg:px-12 lg:pt-10 text-white lg:mx-32 rounded-xl">
+        <div className="bg-purple-normal flex flex-col space-y-0 lg:space-y-0 justify-between px-2 md:px-10 pt-5 lg:px-12 lg:pt-10 text-white lg:mx-32 rounded-xl font-custom">
             <p className="font-bold text-xl lg:text-4xl tracking-wider">Rigour</p>
             <div className="relative flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:justify-between lg:items-center">
                 <div className="space-y-10">

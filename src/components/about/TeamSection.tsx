@@ -4,7 +4,7 @@ import MemberItem from "./MemberItem";
 const TeamSection = () => {
     return (
         <div className="bg-gray-100 py-16 px-2 md:px-10 lg:px-12 lg:space-x-20
-        lg:space-y-20">
+        lg:space-y-20 font-custom">
             <div className="text-center space-y-10 lg:space-y-20">
                 <div>
                     <p className="text-3xl lg:text-7xl font-bold tracking-wider">
@@ -25,7 +25,7 @@ const TeamSection = () => {
                     <MemberItem
                         firstName="Deo"
                         lastname="Ode"
-                        imgUrl="/images/team/1.png"
+                        imgUrl="/images/team/2.png"
                         position="Founder"
                         title="Dr." />
                     <MemberItem
