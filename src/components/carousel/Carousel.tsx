@@ -13,16 +13,15 @@ const CarouselSection = () => {
     let [currentCarouselNo, setCurrentCarouselNo] = useState(1);
     return (
         <div className="flex flex-col-reverse space-y-0 lg:space-y-0 
-        sm:flex-row items-center justify-between px-2 md:px-10 lg:px-32 lg:py-10 font-custom">
+        sm:flex-row items-center justify-between px-2 md:px-10 lg:px-32 lg:py-10
+        font-custom">
             <div className="flex pt-10 sm:pt-0 flex-col justify-between space-y-5 xl:space-y-32">
                 <div className="space-y-1 lg:space-y-10">
                     <div className="flex flex-col">
-                        <span className="text-3xl lg:text-7xl font-bold tracking-wider
-                        font-custom">in touch.</span>
-                        <span className="text-3xl lg:text-7xl font-bold tracking-wider
-                        font-custom">in the moment.</span>
+                        <span className="text-3xl lg:text-7xl font-bold tracking-wider">in touch.</span>
+                        <span className="text-3xl lg:text-7xl font-bold tracking-wider">in the moment.</span>
                     </div>
-                    <div className="text-lg lg:text-xl tracking-wider font-custom">
+                    <div className="text-lg lg:text-xl tracking-wider">
                         with all the healthcare needs right within your reach
                     </div>
                     <div className="flex items-center space-x-3 cursor-pointer">

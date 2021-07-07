@@ -3,4 +3,9 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+@font-face {
+    font-family: "VisbyRoundRegular";
+    src: url("/fonts/VisbyRound/VisbyRoundCF-Regular.ttf");
+    font-display: swap;
+}
 
