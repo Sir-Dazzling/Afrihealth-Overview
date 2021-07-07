@@ -10,6 +10,7 @@ import TestimonialSection from "../../components/product/TestimonialSection";
 import RigourDetails from "../../components/product/RigourDetails";
 import RigourDetails2 from "../../components/product/RigourDetailsTwo";
 import AppFeaturesSection from "../../components/product/AppFeaturesSection";
+import ScanProductSection from "../../components/product/Rigour_App/ScanProductSection";
 
 const RigourAppPage = () => {
     return (
@@ -24,6 +25,7 @@ const RigourAppPage = () => {
                 <RigourDetails />
                 <RigourDetails2 />
                 <AppFeaturesSection />
+                <ScanProductSection />
                 <TestimonialSection />
                 <SpecialistForm />
                 <Footer />

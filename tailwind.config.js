@@ -28,8 +28,7 @@ module.exports = {
         },
         blue: {
           normal: "#2386ee",
-          light: "#eaf3fc",
-          heavy: "#2386ee",
+          light: "#eaf3fc"
         },
         yellow: {
           normal: "#f7b026"

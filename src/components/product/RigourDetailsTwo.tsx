@@ -3,7 +3,7 @@ import React from "react";
 const RigourDetails2 = () => {
     return (
         <div className="bg-gray-normal flex flex-col-reverse lg:flex-row
-        px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0">
+        px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-custom">
             <div className="bg-white pt-8 px-5 lg:px-10 lg:w-2/3 rounded-3xl">
                 <div className="space-y-5">
                     <div className="flex w-full justify-between items-center">

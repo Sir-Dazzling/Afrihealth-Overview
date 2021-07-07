@@ -5,7 +5,7 @@ import 'react-slideshow-image/dist/styles.css';
 
 const fadeImages = [
     "/images/carousel/africa.png",
-    "/images/carousel/carousel2.png"
+    "/images/carousel/carousel4.png"
 ];
 
 const CarouselSection = () => {
@@ -13,7 +13,7 @@ const CarouselSection = () => {
     let [currentCarouselNo, setCurrentCarouselNo] = useState(1);
     return (
         <div className="flex flex-col-reverse space-y-0 lg:space-y-0 
-        sm:flex-row items-center justify-between px-2 md:px-10 lg:px-32 lg:py-10">
+        sm:flex-row items-center justify-between px-2 md:px-10 lg:px-32 lg:py-10 font-custom">
             <div className="flex pt-10 sm:pt-0 flex-col justify-between space-y-5 xl:space-y-32">
                 <div className="space-y-1 lg:space-y-10">
                     <div className="flex flex-col">
