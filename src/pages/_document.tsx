@@ -46,6 +46,11 @@ class MyDocument extends Document {
 
                     <link href="https://db.onlinewebfonts.com/c/89cab462df01ab3846f362d717bea59b?family=VisbyRoundCFBold" rel="stylesheet" />
 
+                    <link rel="preconnect" href="https://fonts.googleapis.com" />
+                    <link rel="preconnect" href="https://fonts.gstatic.com"
+                        crossOrigin="true" />
+                    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet" />
+
                     <noscript>
                         <link
                             rel="stylesheet"
