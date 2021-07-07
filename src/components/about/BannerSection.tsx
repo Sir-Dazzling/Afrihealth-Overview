@@ -9,9 +9,7 @@ const BannerSection = () => {
                     <div className="flex flex-col lg:space-y-5">
                         <p className="font-bold text-lg lg:text-3xl">about us</p>
                         <div>
-                            <p className="text-2xl lg:text-7xl font-bold tracking-wider">
-                                taking charge of the
-                            </p>
+                            <p className="text-2xl lg:text-7xl font-bold tracking-wider">taking charge of the</p>
                             <p className="text-2xl lg:text-7xl font-bold tracking-wider">
                                 health space one move
                             </p>

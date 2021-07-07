@@ -1,16 +1,20 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        custom: ["VisbyRoundCFBold", ...defaultTheme.fontFamily.serif]
+      },
       height: {
         carousel: "800px"
       },
       colors: {
         purple: {
           normal: "#56259b",
-          light: "#ecdeff",
-          heavy: "",
+          light: "#ecdeff"
         },
         gray: {
           normal: "#f6f6f7",

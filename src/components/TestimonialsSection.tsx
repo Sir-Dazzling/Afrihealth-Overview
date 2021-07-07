@@ -3,12 +3,12 @@ import React from "react";
 const TestimonialSection = () => {
     return (
         <div className="bg-gray-100 flex flex-col sm:flex-row justify-between 
-        px-2 md:px-10 lg:px-32 py-16 sm:space-x-20 space-y-10 sm:space-y-0">
+        px-2 md:px-10 lg:px-32 py-16 sm:space-x-20 space-y-10 sm:space-y-0 font-custom">
             <div className="bg-green-lighter rounded-3xl px-2 md:px-10 py-16 space-y-16">
-                <p className="text-xl lg:text-4xl tracking-wider">
+                <p className="text-xl lg:text-5xl tracking-wider">
                     We are intrigued by the transformation potential of such an application
                     and are aware of the sucesses and future potential of Blockchain systems.
-                    We are quite open to what will improve our buisess processes that will
+                    We are quite open to what will improve our buinsess processes that will
                     synergise a win-win situaton for all concerned parties
                 </p>
                 <div>

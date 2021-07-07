@@ -7,7 +7,7 @@ const RigourDetails2 = () => {
             <div className="bg-white pt-8 px-5 lg:px-10 lg:w-2/3 rounded-3xl">
                 <div className="space-y-5">
                     <div className="flex w-full justify-between items-center">
-                        <p className="text-xl font-bold">Doctor's Online Appointment</p>
+                        <p className="text-xl font-bold">Doctor&apos;s Online Appointment</p>
                         <div>
                             <img
                                 src="/images/product/plus.png" />

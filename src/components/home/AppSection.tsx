@@ -1,11 +1,10 @@
 import React from "react";
-import { FaPlusCircle, FaApple } from 'react-icons/fa';
-import { IoLogoGooglePlaystore } from 'react-icons/io5';
+import { FaPlusCircle } from 'react-icons/fa';
 
 const AppSection = () => {
     return (
         <div className="bg-gray-100 flex flex-col-reverse lg:flex-row
-        px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0">
+        px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-custom">
             <div className="bg-purple-normal rounded-3xl py-3 px-5 lg:px-10 lg:w-1/3
             space-y-10 lg:space-y-32">
                 <div className="flex justify-between items-center text-white">
@@ -20,7 +19,7 @@ const AppSection = () => {
                 <div className="space-y-5 lg:space-y-10">
                     <div className="text-xl lg:text-4xl font-bold 
                     tracking-wider text-white space-y-1">
-                        <p>you don't have to</p>
+                        <p>you don&apos;t have to</p>
                         <p>lose a loved one</p>
                         <p>carelessly</p>
                     </div>

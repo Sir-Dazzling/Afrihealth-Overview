@@ -1,5 +1,5 @@
 import React from "react";
-import { FaChevronRight, FaPlusCircle } from "react-icons/fa";
+import { FaPlusCircle } from "react-icons/fa";
 
 const AppFeaturesSection = () => {
     return (

@@ -8,7 +8,7 @@ const SpecialistForm = () => {
 
     return (
         <div className="bg-gray-100 flex flex-col lg:flex-row justify-between 
-        px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0">
+        px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-custom">
             <div className="bg-blue-normal lg:w-1/2 rounded-3xl space-y-10 
             py-8 px-5 lg:px-10">
                 <p className="text-xl lg:text-4xl tracking-wider text-white font-bold">
@@ -119,7 +119,7 @@ const SpecialistForm = () => {
                     </div>
                     {partnerError && <p className="text-red-500">Please select an option from the dropdown menu</p>}
                 </div>
-                <p>By submitting this form, I acknowledge receipt of the Glovaro's Privacy Policy</p>
+                <p>By submitting this form, I acknowledge receipt of the Glovaro&apos;s Privacy Policy</p>
                 <div className="flex items-center space-x-3 cursor-pointer lg:pb-10">
                     <span className="text-blue-normal text-lg lg:text-xl tracking-wider">
                         register

@@ -4,7 +4,7 @@ import { FaChevronRight, FaPlusCircle, FaCheck } from 'react-icons/fa';
 const BenefitsSection = () => {
     return (
         <div className="bg-gray-100 flex flex-col lg:flex-row justify-between 
-        px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0">
+        px-2 md:px-10 lg:px-32 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-custom">
             <div className="bg-green-light rounded-3xl py-3 px-5 lg:px-10 lg:w-1/3
             space-y-10 lg:space-y-32">
                 <div className="flex justify-between items-center text-black">
@@ -18,7 +18,7 @@ const BenefitsSection = () => {
                 <div className="space-y-5 lg:space-y-10">
                     <div className="text-xl lg:text-4xl font-bold 
                     tracking-wider text-black space-y-1">
-                        <p>don't just take our</p>
+                        <p>don&apos;t just take our</p>
                         <p>word for it. we</p>
                         <p>are changing the idealogy of healthcare</p>
                     </div>
