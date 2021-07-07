@@ -23238,7 +23238,11 @@ video {
 }
 
 .font-custom {
-  font-family: VisbyRoundCFBold, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: VarelaRound, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-custom2 {
+  font-family: VisbyRoundCFRegular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-xs {
@@ -54200,7 +54204,11 @@ video {
   }
 
   .sm\:font-custom {
-    font-family: VisbyRoundCFBold, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: VarelaRound, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .sm\:font-custom2 {
+    font-family: VisbyRoundCFRegular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .sm\:text-xs {
@@ -85082,7 +85090,11 @@ video {
   }
 
   .md\:font-custom {
-    font-family: VisbyRoundCFBold, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: VarelaRound, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .md\:font-custom2 {
+    font-family: VisbyRoundCFRegular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .md\:text-xs {
@@ -115964,7 +115976,11 @@ video {
   }
 
   .lg\:font-custom {
-    font-family: VisbyRoundCFBold, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: VarelaRound, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .lg\:font-custom2 {
+    font-family: VisbyRoundCFRegular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .lg\:text-xs {
@@ -146846,7 +146862,11 @@ video {
   }
 
   .xl\:font-custom {
-    font-family: VisbyRoundCFBold, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: VarelaRound, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .xl\:font-custom2 {
+    font-family: VisbyRoundCFRegular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .xl\:text-xs {
@@ -177728,7 +177748,11 @@ video {
   }
 
   .\32xl\:font-custom {
-    font-family: VisbyRoundCFBold, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: VarelaRound, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .\32xl\:font-custom2 {
+    font-family: VisbyRoundCFRegular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .\32xl\:text-xs {

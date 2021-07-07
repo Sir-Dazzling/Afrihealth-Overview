@@ -6,8 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        custom: ["VisbyRoundCFBold", ...defaultTheme.fontFamily.serif],
-        custom2: ["VisbyRoundCFRegular", ...defaultTheme.fontFamily.sans],
+        custom: ["Varela Round", ...defaultTheme.fontFamily.sans]
       },
       height: {
         carousel: "800px"
