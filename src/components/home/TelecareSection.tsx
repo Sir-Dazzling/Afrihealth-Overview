@@ -4,7 +4,7 @@ import HealthCarousel from "./health/HealthCarousel";
 
 const Telecare = () => {
     return (
-        <div className="bg-gray-100 py-16 px-2 md:px-10 lg:px-12 lg:space-x-20 
+        <div className="bg-gray-100 py-5 lg:py-16 px-2 md:px-10 lg:px-12 lg:space-x-20 
         font-custom">
             <div className="text-center space-y-10 lg:space-y-20">
                 <div>

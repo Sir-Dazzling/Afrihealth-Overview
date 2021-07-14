@@ -1,10 +1,11 @@
 import React from 'react';
+import { AiOutlineScan } from 'react-icons/ai';
 
 const ScanProductSection = () => {
     return (
         <div className="bg-blue-normal flex flex-col-reverse lg:flex-row lg:justify-between 
-        px-5 md:px-10 mx-3 lg:mx-32 lg:px-16 lg:pt-16 lg:space-x-20 space-y-10 lg:space-y-0 font-custom rounded-3xl">
-            <div className="lg:space-y-20 lg:w-2/3">
+        px-5 md:px-10 mx-3 lg:mx-10 lg:px-16 lg:pt-16 lg:space-x-20 space-y-10 lg:space-y-0 font-custom rounded-3xl pb-10">
+            <div className="lg:space-y-20 lg:pb-10 lg:w-2/3">
                 <p className="text-white text-2xl lg:text-3xl mb-10 lg:mb-0">Scan Product</p>
                 <div className="space-y-10">
                     <p className="text-white text-2xl lg:text-3xl">Rigour Plus</p>
@@ -24,9 +25,22 @@ const ScanProductSection = () => {
                 </div>
 
             </div>
-            <div className="flex items-start lg:pr-3 pb-10 lg:pb-0">
-                <img
-                    src="/images/product/phone3.png" />
+            <div className="flex justify-between items-start lg:pr-3 pb-10 lg:pb-0">
+                <div className="relative">
+                    {/* <img
+                        // className="animate-bounce"
+                        src="/images/product/drug.png" /> */}
+                    <img
+                        src="/images/product/drug2.png" />
+                    <img
+                        className="absolute bottom-0"
+                        src="/images/product/phone3.png" />
+                    <AiOutlineScan
+                        size={100}
+                        className="absolute top-80 left-52 animate-bounce"
+                    />
+                </div>
+
                 <img
                     className="hidden lg:block"
                     src="/images/product/plus2.png" />

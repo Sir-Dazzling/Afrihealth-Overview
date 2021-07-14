@@ -6,6 +6,8 @@ import Layout from "../components/Layout";
 import NavBar from "../components/navbar/Navbar";
 import PricingSection from "../components/pricing/PricingSection";
 import TableSection from "../components/pricing/TableSection";
+import Fade from 'react-reveal/Fade';
+
 
 const PricingPage = () => {
     return (
@@ -17,7 +19,9 @@ const PricingPage = () => {
             </div>
             <div className="relative">
                 <PricingSection />
-                <TableSection />
+                <Fade bottom>
+                    <TableSection />
+                </Fade>
                 <Footer />
             </div>
             <ScrollToTop
