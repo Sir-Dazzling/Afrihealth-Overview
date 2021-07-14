@@ -11,6 +11,9 @@ import BenefitsSection from '../components/home/BenefitsSection';
 import TestimonialSection from '../components/TestimonialsSection';
 import SpecialistForm from '../components/home/SpecialistForm';
 import Footer from '../components/Footer';
+import { animated, Spring } from 'react-spring';
+import Bounce from 'react-reveal/Bounce';
+import Reveal from 'react-reveal/Reveal';
 
 const IndexPage = () => {
   return (
@@ -22,8 +25,12 @@ const IndexPage = () => {
       </div>
       <div className="relative">
         <CarouselSection />
-        <Healthcare />
-        <Telecare />
+        <Reveal>
+          <Healthcare />
+        </Reveal>
+        <Reveal>
+          <Telecare />
+        </Reveal>
         <AppSection />
         <MedicalAccessSection />
         <BenefitsSection />
@@ -31,18 +38,20 @@ const IndexPage = () => {
         <SpecialistForm />
         <Footer />
       </div>
-      <ScrollToTop
-        style={{
-          borderRadius: 50,
-          backgroundColor: "#56259b",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          padding: 5,
-          zIndex: 40
-        }}
-        component={<FaChevronUp color="white" size={24} />}
-        smooth />
+      <div className="flex self-end">
+        <ScrollToTop
+          style={{
+            borderRadius: 50,
+            backgroundColor: "#56259b",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: 5,
+            zIndex: 40
+          }}
+          component={<FaChevronUp color="white" size={24} />}
+          smooth />
+      </div>
     </Layout>
   );
 };

@@ -5,9 +5,10 @@ import BannerSection from '../components/about/BannerSection'
 import MissonSection from '../components/about/MissonSection'
 import MoreInfoSection from '../components/about/MoreInfoSection'
 import TeamSection from '../components/about/TeamSection'
-import Footer from '../components/Footer'
-import Layout from '../components/Layout'
-import NavBar from '../components/navbar/Navbar'
+import Footer from '../components/Footer';
+import Layout from '../components/Layout';
+import NavBar from '../components/navbar/Navbar';
+import Fade from 'react-reveal/Fade';
 
 const AboutPage = () => (
   <Layout
@@ -20,7 +21,9 @@ const AboutPage = () => (
       <BannerSection />
       <MoreInfoSection />
       <MissonSection />
-      <TeamSection />
+      <Fade bottom>
+        <TeamSection />
+      </Fade>
       <Footer />
     </div>
     <ScrollToTop

@@ -10,6 +10,7 @@ import TestimonialSection from "../components/TestimonialsSection";
 import SpecialistForm from "../components/home/SpecialistForm";
 import PolarisSection from "../components/product/PolarisSection";
 import PiconSection from "../components/product/PiconSection";
+import Fade from 'react-reveal/Fade';
 
 const ProductPage = () => {
     return (
@@ -22,9 +23,15 @@ const ProductPage = () => {
             <div className="relative">
                 <div className="relative bg-gray-100">
                     <BannerSection />
-                    <ProductDescriptionSection />
-                    <PolarisSection />
-                    <PiconSection />
+                    <Fade>
+                        <ProductDescriptionSection />
+                    </Fade>
+                    <Fade bottom>
+                        <div>
+                            <PolarisSection />
+                            <PiconSection />
+                        </div>
+                    </Fade>
                     <TestimonialSection />
                     <SpecialistForm />
                 </div>

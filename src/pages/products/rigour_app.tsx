@@ -6,7 +6,7 @@ import SpecialistForm from "../../components/product/SpecialistForm";
 import Layout from "../../components/Layout";
 import NavBar from "../../components/navbar/Navbar";
 import Header from "../../components/product/Rigour_App/Header";
-import TestimonialSection from "../../components/product/TestimonialSection";
+import TestimonialSection from "../../components/TestimonialsSection";
 import RigourDetails from "../../components/product/RigourDetails";
 import RigourDetails2 from "../../components/product/RigourDetailsTwo";
 import AppFeaturesSection from "../../components/product/AppFeaturesSection";

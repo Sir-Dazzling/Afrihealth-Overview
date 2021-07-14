@@ -22,17 +22,23 @@ const NavBar = () => {
                 : url2.includes("contact_us") ? "bg-blue-light"
                     : url2.includes("rigour_app") ? "bg-gray-heavy"
                         : "bg-gray-normal"} relative top-0 flex justify-between items-center
-        px-2 md:px-10 lg:px-32 py-5 font-custom`}>
+        px-2 md:px-10 lg:px-10 py-5 font-custom`}>
                 <Link href="/">
                     <img
                         src="/images/logo.png"
                         className="h-16 cursor-pointer" />
                 </Link>
 
-                <FiMenu
-                    size={38}
-                    className="bg-gray-200 text-gray-400 p-2 cursor-pointer"
-                    onClick={() => setOpenNav(true)} />
+                <div
+                    onClick={() => {
+                        setOpenNav(true);
+                    }}
+                    className="w-10 h-10 lg:w-14 lg:h-16">
+                    <img
+                        className="cursor-pointer"
+                        src="/images/hamburger.png" />
+                </div>
+
             </nav>
             {openNav && <div
                 className="bg-gray-100 h-screen top-0 bottom-0 absolute z-10 left-1/2 transform -translate-x-1/2 px-2 w-screen sm:px-0 flex justify-between font-custom">

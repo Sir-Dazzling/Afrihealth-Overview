@@ -14,7 +14,7 @@ const TelecareItem = ({
             <img
                 className="h-28"
                 src={imageUrl} />
-            <div className="text-lg text-left lg:text-xl tracking-wider w-2/3">
+            <div className="text-lg text-left lg:text-3xl tracking-wider w-3/4">
                 <span className="font-bold mr-1">
                     {type === "ambulance" ? "ambulance service" : type === "telemedicine" ? "telemedicine " : "track and trace"}
                 </span>
@@ -22,7 +22,7 @@ const TelecareItem = ({
             </div>
             <Link href={link}>
                 <div className="flex self-start items-center space-x-3 cursor-pointer">
-                    <span className="text-blue-600 text-lg lg:text-xl tracking-wider">learn more</span>
+                    <span className="text-blue-600 text-lg lg:text-3xl tracking-wider">learn more</span>
                     <FaChevronRight
                         className="text-blue-600"
                         size={18} />
