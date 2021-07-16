@@ -12,8 +12,9 @@ module.exports = {
         carousel: "800px"
       },
       animation: {
-        "spin-slow": "spin 10s linear infinite",
-        "one-bounce": "bounce 1s"
+        "spin-slow": "spin 15s linear infinite",
+        "one-bounce": "bounce 1s",
+        "slow-bounce": "bounce 10s infinite"
       },
       colors: {
         purple: {

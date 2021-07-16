@@ -28,7 +28,7 @@ const CarouselSection = () => {
                         </LightSpeed>
                         <ReactTypingEffect
                             text={["with all the healthcare needs right within your reach"]}
-                            eraseDelay={8640000000000000}
+                            eraseDelay={"30000"}
                             cursorRenderer={cursor => <h1>{cursor}</h1>}
                             displayTextRenderer={(text, i) => {
                                 return (

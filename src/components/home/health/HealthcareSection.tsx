@@ -7,7 +7,8 @@ const Healthcare = () => {
         px-2 md:px-10 lg:px-12 py-16 lg:space-x-20 space-y-10 lg:space-y-0 items-center font-custom">
             <img
                 className="h-40 lg:h-80 animate-spin-slow"
-                src="/images/earth.png" />
+                src="/images/earth.png"
+                alt="globe" />
             <div className="space-y-5 lg:space-y-10">
                 <div>
                     <p className="text-3xl lg:text-7xl font-bold tracking-wider">
