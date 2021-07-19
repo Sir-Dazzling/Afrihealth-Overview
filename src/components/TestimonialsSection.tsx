@@ -6,7 +6,7 @@ const TestimonialSection = () => {
     return (
         <Fade bottom>
             <div className="bg-gray-100 flex flex-col sm:flex-row justify-between 
-        px-2 md:px-10 lg:px-10 py-16 sm:space-x-20 space-y-10 sm:space-y-0 font-custom">
+        px-2 md:px-10 lg:px-10 py-16 sm:space-x-20 space-y-10 sm:space-y-0 font-visblyround">
                 <div className="bg-green-lighter rounded-3xl px-2 md:px-10 py-16 space-y-16">
                     <p className="text-xl lg:text-4xl tracking-wider">
                         We are intrigued by the transformation potential of such an application
@@ -28,7 +28,7 @@ const TestimonialSection = () => {
                         <div className="flex items-center space-x-3 pb-5 sm:pb-10 lg:pb-0
             px-2 md:px-10 pt-3 md:pt-0">
                             <div className="flex items-center space-x-3 font-medium text-lg 
-                    font-custom">
+                    font-visblyround">
                                 <span className="font-bold text-xl lg:text-3xl">01</span>
                                 <span className="text-gray-500 text-xl lg:text-3xl">/ 02</span>
                             </div>

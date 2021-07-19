@@ -3,7 +3,7 @@ import { FaCheck } from 'react-icons/fa';
 
 const TableSection = () => {
     return (
-        <div className="bg-gray-100 flex flex-col px-10 lg:px-32 lg:py-20 font-custom">
+        <div className="bg-gray-100 flex flex-col px-10 lg:px-32 lg:py-20 font-visblyround">
             <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                     <div className="overflow-hidden sm:rounded-lg">

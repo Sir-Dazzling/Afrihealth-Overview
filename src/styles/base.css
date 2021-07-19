@@ -9916,6 +9916,36 @@ video {
   }
 }
 
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+
 .animate-none {
   animation: none;
 }
@@ -9934,6 +9964,18 @@ video {
 
 .animate-bounce {
   animation: bounce 1s infinite;
+}
+
+.animate-spin-slow {
+  animation: spin 15s linear infinite;
+}
+
+.animate-one-bounce {
+  animation: bounce 1s;
+}
+
+.animate-slow-bounce {
+  animation: bounce 10s infinite;
 }
 
 .cursor-auto {
@@ -23237,12 +23279,12 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.font-custom {
-  font-family: VarelaRound, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.font-visblyround2 {
+  font-family: Varela Round, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.font-custom2 {
-  font-family: VisbyRoundCFRegular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.font-visbly-round {
+  font-family: VisbyRoundRegular, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-xs {
@@ -31538,7 +31580,7 @@ video {
 @font-face {
   font-family: "VisbyRoundRegular";
 
-  src: url("/fonts/VisbyRound/VisbyRoundCF-Regular.ttf");
+  src: url("/fonts/VisbyRound/VisbyRoundCF-Medium.otf");
 
   font-display: swap;
 }
@@ -40900,6 +40942,18 @@ video {
 
   .sm\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+
+  .sm\:animate-spin-slow {
+    animation: spin 15s linear infinite;
+  }
+
+  .sm\:animate-one-bounce {
+    animation: bounce 1s;
+  }
+
+  .sm\:animate-slow-bounce {
+    animation: bounce 10s infinite;
   }
 
   .sm\:cursor-auto {
@@ -54203,12 +54257,12 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .sm\:font-custom {
-    font-family: VarelaRound, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .sm\:font-visblyround2 {
+    font-family: Varela Round, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
-  .sm\:font-custom2 {
-    font-family: VisbyRoundCFRegular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .sm\:font-visbly-round {
+    font-family: VisbyRoundRegular, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .sm\:text-xs {
@@ -71788,6 +71842,18 @@ video {
     animation: bounce 1s infinite;
   }
 
+  .md\:animate-spin-slow {
+    animation: spin 15s linear infinite;
+  }
+
+  .md\:animate-one-bounce {
+    animation: bounce 1s;
+  }
+
+  .md\:animate-slow-bounce {
+    animation: bounce 10s infinite;
+  }
+
   .md\:cursor-auto {
     cursor: auto;
   }
@@ -85089,12 +85155,12 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .md\:font-custom {
-    font-family: VarelaRound, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .md\:font-visblyround2 {
+    font-family: Varela Round, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
-  .md\:font-custom2 {
-    font-family: VisbyRoundCFRegular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .md\:font-visbly-round {
+    font-family: VisbyRoundRegular, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .md\:text-xs {
@@ -102674,6 +102740,18 @@ video {
     animation: bounce 1s infinite;
   }
 
+  .lg\:animate-spin-slow {
+    animation: spin 15s linear infinite;
+  }
+
+  .lg\:animate-one-bounce {
+    animation: bounce 1s;
+  }
+
+  .lg\:animate-slow-bounce {
+    animation: bounce 10s infinite;
+  }
+
   .lg\:cursor-auto {
     cursor: auto;
   }
@@ -115975,12 +116053,12 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .lg\:font-custom {
-    font-family: VarelaRound, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .lg\:font-visblyround2 {
+    font-family: Varela Round, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
-  .lg\:font-custom2 {
-    font-family: VisbyRoundCFRegular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .lg\:font-visbly-round {
+    font-family: VisbyRoundRegular, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .lg\:text-xs {
@@ -133560,6 +133638,18 @@ video {
     animation: bounce 1s infinite;
   }
 
+  .xl\:animate-spin-slow {
+    animation: spin 15s linear infinite;
+  }
+
+  .xl\:animate-one-bounce {
+    animation: bounce 1s;
+  }
+
+  .xl\:animate-slow-bounce {
+    animation: bounce 10s infinite;
+  }
+
   .xl\:cursor-auto {
     cursor: auto;
   }
@@ -146861,12 +146951,12 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .xl\:font-custom {
-    font-family: VarelaRound, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .xl\:font-visblyround2 {
+    font-family: Varela Round, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
-  .xl\:font-custom2 {
-    font-family: VisbyRoundCFRegular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .xl\:font-visbly-round {
+    font-family: VisbyRoundRegular, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .xl\:text-xs {
@@ -164446,6 +164536,18 @@ video {
     animation: bounce 1s infinite;
   }
 
+  .\32xl\:animate-spin-slow {
+    animation: spin 15s linear infinite;
+  }
+
+  .\32xl\:animate-one-bounce {
+    animation: bounce 1s;
+  }
+
+  .\32xl\:animate-slow-bounce {
+    animation: bounce 10s infinite;
+  }
+
   .\32xl\:cursor-auto {
     cursor: auto;
   }
@@ -177747,12 +177849,12 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
-  .\32xl\:font-custom {
-    font-family: VarelaRound, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .\32xl\:font-visblyround2 {
+    font-family: Varela Round, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
-  .\32xl\:font-custom2 {
-    font-family: VisbyRoundCFRegular, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  .\32xl\:font-visbly-round {
+    font-family: VisbyRoundRegular, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
   }
 
   .\32xl\:text-xs {

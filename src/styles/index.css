@@ -5,7 +5,7 @@
 @tailwind utilities;
 @font-face {
     font-family: "VisbyRoundRegular";
-    src: url("/fonts/VisbyRound/VisbyRoundCF-Regular.ttf");
+    src: url("/fonts/VisbyRound/VisbyRoundCF-Medium.otf");
     font-display: swap;
 }
 

@@ -3,7 +3,7 @@ import React from 'react';
 const ScanProductSection = () => {
     return (
         <div className="relative bg-blue-normal flex flex-col-reverse lg:flex-row lg:justify-between 
-        px-5 md:px-10 mx-3 lg:mx-10 lg:px-16 lg:pt-16 lg:space-x-20 space-y-10 lg:space-y-0 font-custom rounded-3xl pb-10">
+        px-5 md:px-10 mx-3 lg:mx-10 lg:px-16 lg:pt-16 lg:space-x-20 space-y-10 lg:space-y-0 font-visblyround rounded-3xl pb-10">
             <div className="lg:space-y-20 lg:pb-10 lg:w-2/3">
                 <p className="text-white text-2xl lg:text-3xl mb-10 lg:mb-0">Scan Product</p>
                 <div className="space-y-10">

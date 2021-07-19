@@ -7,7 +7,7 @@ const FormSection = () => {
     let [partnerDropdown, setPartnerDropdown] = useState(false);
     let [partnerError, setPartnerError] = useState(true);
     return (
-        <div className="bg-gray-normal flex flex-col lg:flex-row px-2 md:px-10 lg:px-32 py-16 space-y-10 lg:space-y-10 lg:space-x-10 font-custom">
+        <div className="bg-gray-normal flex flex-col lg:flex-row px-2 md:px-10 lg:px-32 py-16 space-y-10 lg:space-y-10 lg:space-x-10 font-visblyround">
             <LightSpeed left>
                 <div className="bg-white px-5 py-10 lg:w-2/3 lg:px-32">
                     <img

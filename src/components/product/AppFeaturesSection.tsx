@@ -3,7 +3,7 @@ import { FaPlusCircle } from "react-icons/fa";
 
 const AppFeaturesSection = () => {
     return (
-        <div className="flex flex-col lg:flex-row px-2 md:px-10 lg:px-10 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-custom">
+        <div className="flex flex-col lg:flex-row px-2 md:px-10 lg:px-10 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-visblyround">
             <div className="bg-green-light rounded-3xl py-3 px-5 lg:px-10 lg:w-1/3
             space-y-10 lg:space-y-32 lg:pb-32">
                 <div className="flex justify-between items-center text-black">

@@ -3,7 +3,7 @@ import { FaChevronRight } from 'react-icons/fa';
 
 const PolarisSection = () => {
     return (
-        <div className="bg-white flex flex-col space-y-0 lg:space-y-0 justify-between px-3 md:px-10 lg:px-12 py-5 lg:py-10 my-5 lg:my-10 text-black lg:mx-10 rounded-xl font-custom">
+        <div className="bg-white flex flex-col space-y-0 lg:space-y-0 justify-between px-3 md:px-10 lg:px-12 py-5 lg:py-10 my-5 lg:my-10 text-black lg:mx-10 rounded-xl font-visblyround">
             <p className="font-bold text-3xl lg:text-4xl tracking-wider">Polaris
                 <span className="font-normal">web</span></p>
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center

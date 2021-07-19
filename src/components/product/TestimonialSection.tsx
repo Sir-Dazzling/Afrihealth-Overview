@@ -3,7 +3,7 @@ import React from "react";
 const TestimonialSection = () => {
     return (
         <div className="bg-gray-normal flex flex-col sm:flex-row justify-between 
-        px-2 md:px-10 lg:px-32 py-16 sm:space-x-20 space-y-10 sm:space-y-0 font-custom">
+        px-2 md:px-10 lg:px-32 py-16 sm:space-x-20 space-y-10 sm:space-y-0 font-visblyround">
             <div className="bg-green-lighter rounded-3xl px-2 md:px-10 py-16 space-y-16">
                 <p className="text-xl lg:text-4xl tracking-wider">
                     We are intrigued by the transformation potential of such an application

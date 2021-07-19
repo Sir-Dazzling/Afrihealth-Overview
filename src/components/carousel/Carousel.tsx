@@ -17,7 +17,7 @@ const CarouselSection = () => {
         <div className="flex flex-col">
             <div className="flex flex-col-reverse space-y-0 lg:space-y-0
         sm:flex-row md:items-center justify-between px-2 md:px-10 lg:pt-0
-        font-custom">
+        font-visblyround">
                 <div className="flex pt-10 sm:pt-0 flex-col justify-between space-y-5 xl:space-y-72">
                     <div className="space-y-1 lg:space-y-10">
                         <LightSpeed left cascade>
@@ -47,7 +47,7 @@ const CarouselSection = () => {
                             }}
                         />
                         <div className="flex items-center space-x-3 cursor-pointer">
-                            <span className="text-blue-normal text-lg lg:text-xl tracking-wider font-custom">learn more</span>
+                            <span className="text-blue-normal text-lg lg:text-xl tracking-wider font-visblyround">learn more</span>
                             <FaChevronRight
                                 className="text-blue-normal"
                                 size={23} />
@@ -79,7 +79,7 @@ const CarouselSection = () => {
             <div className="flex items-center space-x-3 pb-5 sm:pb-10 bg-gray-100
             px-2 md:px-10 pt-3 md:pt-0">
                 <div className="flex items-center space-x-3 font-medium text-lg 
-                    font-custom">
+                    font-visblyround">
                     <span>0{currentCarouselNo}</span>
                     <span className="text-gray-500">/ 02</span>
                 </div>

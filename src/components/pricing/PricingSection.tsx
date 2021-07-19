@@ -6,7 +6,7 @@ import LightSpeed from 'react-reveal/LightSpeed';
 const PricingSection = () => {
     return (
         <div className="bg-gray-100 flex flex-col space-y-0 lg:space-y-32 
-        items-center justify-between px-2 md:px-10 lg:px-32 lg:py-10 font-custom">
+        items-center justify-between px-2 md:px-10 lg:px-32 lg:py-10 font-visblyround">
             <LightSpeed  cascade>
                 <div className="text-center w-full space-y-5">
                     <p className="font-bold text-2xl lg:text-3xl tracking-wider">pricing</p>
