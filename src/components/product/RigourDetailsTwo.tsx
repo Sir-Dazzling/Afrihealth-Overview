@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 const RigourDetails2 = () => {
     return (
         <div className="bg-gray-normal flex flex-col-reverse lg:flex-row
-        px-2 md:px-10 lg:px-10 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-custom">
+        px-2 md:px-10 lg:px-10 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-visblyround">
             <Fade left>
                 <div className="bg-white pt-8 px-5 lg:px-10 lg:w-2/3 rounded-3xl">
                     <div className="space-y-5">

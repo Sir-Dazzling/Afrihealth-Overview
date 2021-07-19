@@ -4,7 +4,7 @@ import LightSpeed from 'react-reveal/LightSpeed';
 const BannerSection = () => {
     return (
         <div className="bg-gray-other flex flex-col-reverse space-y-0 lg:space-y-0 
-        sm:flex-row justify-between px-2 md:px-10 lg:px-10 lg:py-10 font-custom">
+        sm:flex-row justify-between px-2 md:px-10 lg:px-10 lg:py-10 font-visblyround">
             <div className="flex lg:py-20 flex-col justify-between space-y-5 xl:space-y-32 lg:w-2/3">
                 <div className="space-y-1 lg:space-y-10 py-10 lg:py-0">
                     <LightSpeed left cascade>

@@ -3,7 +3,7 @@ import { FaChevronRight } from 'react-icons/fa';
 
 const PiconSection = () => {
     return (
-        <div className="bg-black fflex flex-col space-y-0 lg:space-y-0 justify-between px-3 md:px-10 lg:px-12 py-5 lg:py-10 my-5 lg:my-10 text-white lg:mx-10 rounded-xl font-custom">
+        <div className="bg-black fflex flex-col space-y-0 lg:space-y-0 justify-between px-3 md:px-10 lg:px-12 py-5 lg:py-10 my-5 lg:my-10 text-white lg:mx-10 rounded-xl font-visblyround">
             <p className="font-bold text-xl lg:text-4xl tracking-wider">Picon 
             <sup>TM</sup></p>
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center

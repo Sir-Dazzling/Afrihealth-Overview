@@ -3,7 +3,7 @@ import Slide from 'react-reveal/Slide';
 
 const MoreInfoSection = () => {
     return (
-        <div className="bg-white flex flex-col px-2 md:px-10 lg:px-10 py-16 space-y-10 lg:space-y-10 font-custom">
+        <div className="bg-white flex flex-col px-2 md:px-10 lg:px-10 py-16 space-y-10 lg:space-y-10 font-visblyround">
             <Slide top cascade>
                 <div className="space-y-3 text-2xl lg:text-6xl font-bold tracking-wider w-full">
                     <p>at afrihealth we aim to create an</p>
