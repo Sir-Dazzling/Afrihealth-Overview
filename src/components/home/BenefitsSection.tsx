@@ -4,9 +4,10 @@ import Slide from 'react-reveal/Slide';
 
 const BenefitsSection = () => {
     return (
-        <div className="bg-gray-100 flex flex-col lg:flex-row justify-between 
+        <Slide left>
+            <div className="bg-gray-100 flex flex-col lg:flex-row justify-between 
         px-2 md:px-10 lg:px-10 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-visblyround">
-            <Slide left>
+
                 <div className="bg-green-light rounded-3xl py-3 px-5 lg:px-10 lg:w-1/3
             space-y-10 lg:space-y-32">
                     <div className="flex justify-between items-center text-black">
@@ -36,9 +37,6 @@ const BenefitsSection = () => {
                         </div>
                     </div>
                 </div>
-            </Slide>
-
-            <Slide right cascade>
                 <div className="bg-white lg:w-2/3 py-3 px-5 lg:px-10 rounded-3xl space-y-10">
 
                     <div className="flex justify-between items-center">
@@ -90,8 +88,8 @@ const BenefitsSection = () => {
                     </div>
 
                 </div>
-            </Slide>
-        </div>
+            </div>
+        </Slide>
     );
 };
 

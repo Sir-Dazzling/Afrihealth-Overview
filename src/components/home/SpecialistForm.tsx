@@ -8,9 +8,10 @@ const SpecialistForm = () => {
     let [partnerError, setPartnerError] = useState(true);
 
     return (
-        <div className="bg-gray-100 flex flex-col lg:flex-row justify-between 
+        <Slide left>
+            <div className="bg-gray-100 flex flex-col lg:flex-row justify-between 
         px-2 md:px-10 lg:px-10 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-visblyround">
-            <Slide left>
+
                 <div className="bg-blue-normal lg:w-1/2 rounded-3xl space-y-10 
             py-8 px-5 lg:px-10">
                     <p className="text-xl lg:text-4xl tracking-wider text-white font-bold">
@@ -28,9 +29,7 @@ const SpecialistForm = () => {
                         for good while earning on your dawn time.
                     </div>
                 </div>
-            </Slide>
 
-            <Slide right>
                 <div className="bg-white lg:w-1/2 rounded-3xl space-y-10 
             py-8 px-5 lg:px-10">
                     <div className="relative">
@@ -134,8 +133,8 @@ const SpecialistForm = () => {
                             size={18} />
                     </div>
                 </div>
-            </Slide>
-        </div>
+            </div>
+        </Slide>
     );
 };
 

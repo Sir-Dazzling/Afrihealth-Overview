@@ -3,9 +3,10 @@ import Fade from 'react-reveal/Fade';
 
 const RigourDetails2 = () => {
     return (
-        <div className="bg-gray-normal flex flex-col-reverse lg:flex-row
+        <Fade right>
+            <div className="bg-gray-normal flex flex-col-reverse lg:flex-row
         px-2 md:px-10 lg:px-10 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-visblyround">
-            <Fade left>
+
                 <div className="bg-white pt-8 px-5 lg:px-10 lg:w-2/3 rounded-3xl">
                     <div className="space-y-5">
                         <div className="flex w-full justify-between items-center">
@@ -27,8 +28,7 @@ const RigourDetails2 = () => {
                             src="/images/medical_access/med_access.png" />
                     </div>
                 </div>
-            </Fade>
-            <Fade right>
+
                 <div className="bg-white rounded-lg lg:w-2/3 flex flex-col
             lg:space-y-20">
                     <div className="rounded-3xl py-8 px-5 lg:px-10 space-y-10">
@@ -52,8 +52,8 @@ const RigourDetails2 = () => {
                         </div>
                     </div>
                 </div>
-            </Fade>
-        </div>
+            </div>
+        </Fade>
     );
 };
 
