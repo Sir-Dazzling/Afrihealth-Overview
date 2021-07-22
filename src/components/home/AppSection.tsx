@@ -4,9 +4,10 @@ import Slide from 'react-reveal/Slide';
 
 const AppSection = () => {
     return (
-        <div className="bg-gray-100 flex flex-col-reverse lg:flex-row
+        <Slide left>
+            <div className="bg-gray-100 flex flex-col-reverse lg:flex-row
         px-2 md:px-10 lg:px-10 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-visblyround">
-            <Slide left>
+
                 <div className="bg-purple-normal rounded-3xl py-5 px-5 lg:px-5 lg:w-1/3
             space-y-10 lg:space-y-32">
                     <div className="flex justify-between items-center text-white">
@@ -41,9 +42,7 @@ const AppSection = () => {
                         </div>
                     </div>
                 </div>
-            </Slide>
 
-            <Slide right>
                 <div className="bg-white rounded-lg lg:w-2/3 flex flex-col lg:flex-row py-5">
                     <div className="rounded-3xl py-8 px-5 lg:px-10 space-y-10 items-center">
                         <div className="space-y-3">
@@ -70,9 +69,8 @@ const AppSection = () => {
                         className="mx-auto lg:pt-32"
                         src="/images/app/rigour_plus.png" />
                 </div>
-            </Slide>
-
-        </div>
+            </div>
+        </Slide>
     );
 };
 

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 import LightSpeed from 'react-reveal/LightSpeed';
-import Fade from 'react-reveal/Fade';
 
 const FormSection = () => {
     let [partnerDropdown, setPartnerDropdown] = useState(false);
@@ -128,12 +127,10 @@ const FormSection = () => {
                     </div>
                 </div>
             </LightSpeed>
-            <Fade right>
-                <div className="lg:w-1/3">
-                    <img
-                        src="/images/contact_us/5.png" />
-                </div>
-            </Fade>
+            <div className="lg:w-1/3">
+                <img
+                    src="/images/contact_us/5.png" />
+            </div>
         </div>
     );
 };

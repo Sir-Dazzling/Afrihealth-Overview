@@ -6,8 +6,8 @@ import ReactCardFlip from "react-card-flip";
 const MedicalAccessSection = () => {
     let [medCardFlipped, setMedCardFlipped] = useState(false);
     return (
-        <div className="flex flex-col lg:flex-row bg-gray-100 lg:py-16 px-2 md:px-10 lg:px-10 lg:space-x-20 font-visblyround space-y-10 lg:space-y-0">
-            <Slide left>
+        <Slide right>
+            <div className="flex flex-col lg:flex-row bg-gray-100 lg:py-16 px-2 md:px-10 lg:px-10 lg:space-x-20 font-visblyround space-y-10 lg:space-y-0">
                 <div className="bg-white pt-8 px-5 lg:px-10 lg:w-2/3 rounded-3xl">
                     <div className="space-y-5">
                         <p className="text-lg lg:text-3xl font-bold">Real Time Medical Access</p>
@@ -23,9 +23,7 @@ const MedicalAccessSection = () => {
                             src="/images/medical_access/med_access.png" />
                     </div>
                 </div>
-            </Slide>
 
-            <Slide right>
                 <div
                     onMouseEnter={() => {
                         setMedCardFlipped(!medCardFlipped);
@@ -97,9 +95,8 @@ const MedicalAccessSection = () => {
                         </div>
                     </ReactCardFlip>
                 </div>
-
-            </Slide>
-        </div>
+            </div>
+        </Slide>
     );
 };
 

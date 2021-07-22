@@ -4,9 +4,10 @@ import Slide from 'react-reveal/Slide';
 
 const MissonSection = () => {
     return (
-        <div className="bg-gray-100 flex flex-col-reverse lg:flex-row
+        <Slide right>
+            <div className="bg-gray-100 flex flex-col-reverse lg:flex-row
         px-2 md:px-10 lg:px-10 py-16 lg:space-x-20 space-y-10 lg:space-y-0 font-visblyround">
-            <Slide left>
+
                 <div className="bg-green-normal rounded-3xl py-10 px-5 lg:px-10 lg:w-1/3
             space-y-10 lg:space-y-32">
                     <div className="flex justify-between items-center text-white">
@@ -29,8 +30,7 @@ const MissonSection = () => {
                         </div>
                     </div>
                 </div>
-            </Slide>
-            <Slide right>
+
                 <div className="bg-white rounded-lg lg:w-2/3 flex flex-col lg:flex-row">
                     <div className="rounded-3xl py-10 px-5 lg:px-10 space-y-10">
                         <div className="space-y-10">
@@ -56,8 +56,8 @@ const MissonSection = () => {
                         </div>
                     </div>
                 </div>
-            </Slide>
-        </div>
+            </div>
+        </Slide>
     );
 };
 

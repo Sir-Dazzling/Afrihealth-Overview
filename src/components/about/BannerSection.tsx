@@ -1,5 +1,5 @@
 import React from 'react';
-import LightSpeed from 'react-reveal/LightSpeed';
+import Slide from 'react-reveal/Slide';
 
 const BannerSection = () => {
     return (
@@ -7,7 +7,7 @@ const BannerSection = () => {
         sm:flex-row justify-between px-2 md:px-10 lg:px-10 lg:py-10 font-visblyround">
             <div className="flex lg:py-20 flex-col justify-between space-y-5 xl:space-y-32 lg:w-2/3">
                 <div className="space-y-1 lg:space-y-10 py-10 lg:py-0">
-                    <LightSpeed left cascade>
+                    <Slide left cascade>
                         <div className="lg:space-y-5">
                             <div className="flex flex-col lg:space-y-5">
                                 <p className="font-bold text-lg lg:text-3xl">about us</p>
@@ -27,9 +27,7 @@ const BannerSection = () => {
                                 can be found in rel time at the click of a button.
                             </div>
                         </div>
-
-                    </LightSpeed>
-
+                    </Slide>
                 </div>
             </div>
             <div className="w-full relative sm:w-1/3 lg:w-1/5">

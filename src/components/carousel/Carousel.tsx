@@ -3,7 +3,7 @@ import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import ReactTypingEffect from 'react-typing-effect';
-import LightSpeed from 'react-reveal/LightSpeed';
+import Slide from 'react-reveal/Slide';
 
 const fadeImages = [
     "/images/carousel/africa.png",
@@ -20,12 +20,12 @@ const CarouselSection = () => {
         font-visblyround">
                 <div className="flex pt-10 sm:pt-0 flex-col justify-between space-y-5 xl:space-y-72">
                     <div className="space-y-1 lg:space-y-10">
-                        <LightSpeed left cascade>
+                        <Slide left cascade>
                             <div className="flex flex-col mb-3">
                                 <span className="text-3xl lg:text-7xl font-bold tracking-wider">in touch.</span>
                                 <span className="text-3xl lg:text-7xl font-bold tracking-wider">in the moment.</span>
                             </div>
-                        </LightSpeed>
+                        </Slide>
                         <ReactTypingEffect
                             text={["with all the healthcare needs right within your reach"]}
                             eraseDelay={"30000"}
