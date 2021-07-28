@@ -13,17 +13,11 @@ const BannerSection = () => {
                             <p className="font-bold text-lg lg:text-3xl">our product</p>
                             <div>
                                 <p className="text-2xl lg:text-7xl font-bold tracking-wider">
-                                    with years of proper
-                                </p>
-                                <p className="text-2xl lg:text-7xl font-bold tracking-wider">
-                                    research,
+                                    Get thrust into the future of healthcare today.
                                 </p>
                             </div>
                             <p className="text-lg lg:text-2xl tracking-wider lg:w-2/3">
-                                afrihealth has curated and designed
-                                a range of products and services, partnering with certified healthcare
-                                providers, health maintenance organizations, pharmacies, laboratories and
-                                other essential health services to make solutions accessible to africans and the world at large
+                                Our unique approach to improving universal access to healthcare is reinforced by our expertise in leveraging our clinical and technological assets so they work in perfect sync for you
                             </p>
                             <div className="flex items-center space-x-3 cursor-pointer">
                                 <span className="text-blue-normal text-lg lg:text-xl tracking-wider">scroll down</span>

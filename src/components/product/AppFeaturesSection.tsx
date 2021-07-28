@@ -17,16 +17,16 @@ const AppFeaturesSection = () => {
                 <div className="space-y-5 lg:space-y-10">
                     <div className="text-xl lg:text-4xl font-bold 
                     tracking-wider text-black space-y-1">
-                        <p>Rigour+ partners</p>
-                        <p>with a wide range</p>
-                        <p>of HMOs to give</p>
-                        <p>our user a </p>
-                        <p>cataglogue</p>
-                    </div>
-                    <div className="text-black text-lg lg:text-2xl font-medium">
                         <p>
-                            of services and the liberty to make those choices. Users can browse varying products and policies of different HMOs, and also purchase insurance
-                            Policies on the Rigour+ app
+                            Demystifying health insurance for you and your family.
+                        </p>
+                    </div>
+                    <div className="text-black text-lg lg:text-2xl font-medium space-y-3">
+                        <p>
+                            Rigour+ provides the opportunity to purchase health insurance while making sure our plans do not break the bank. We help you and your family save money on doctor&apos;s visits, prescriptions drugs, emergency response and other healthcare services.
+                        </p>
+                        <p>
+                            Through strategic partnerships with HMOs & Hospitals, you can purchase different policies including dental and vision. Whether you seek coverage for your baby or your aged parents with chronic conditions, you can now choose the best plans at the most affordable prices.
                         </p>
                     </div>
                 </div>
@@ -45,15 +45,19 @@ const AppFeaturesSection = () => {
                 <div className="space-y-5 lg:space-y-10">
                     <div className="text-xl lg:text-4xl font-bold 
                     tracking-wider text-black space-y-1">
-                        <p>when certain</p>
-                        <p>medical needs</p>
-                        <p>arise, making</p>
-                        <p>uniformed</p>
-                        <p>searches</p>
-                    </div>
-                    <div className="text-black text-lg lg:text-2xl font-medium">
                         <p>
-                            or being unaware where to purchase Certain products or services can be frustrating.
+                            Search more than 1000 medical service providers to find the best facility near you.
+                        </p>
+                    </div>
+                    <div className="text-black text-lg lg:text-2xl font-medium space-y-3">
+                        <p>
+                            Rigour+ provides an interactive map of medical service providers by speciality and location.
+                        </p>
+                        <p>
+                            More than just a search engine for health care services, you get detailed information about the medical service provider of your choice.
+                        </p>
+                        <p>
+                            From blood banks and Pharmacies to Diagnostic centres, you get to choose between multiple options of well-vetted professional care centres.
                         </p>
                     </div>
                 </div>
@@ -72,15 +76,22 @@ const AppFeaturesSection = () => {
                 <div className="space-y-5 lg:space-y-10">
                     <div className="text-xl lg:text-4xl font-bold 
                     tracking-wider text-black space-y-1">
-                        <p>with our pay for</p>
-                        <p>me option, our</p>
-                        <p>users can have</p>
-                        <p>access to</p>
-                        <p>healthcare</p>
+                        <p>
+                            Pay for anyone’s medical bills securely without being around them.
+                        </p>
                     </div>
-                    <div className="text-black text-lg lg:text-2xl font-medium">
+                    <div className="text-black text-lg lg:text-2xl font-medium space-y-3">
                         <p>
                             funding which covers Medicine purchases, transportation, medical services and other health services.
+                        </p>
+                        <p>
+                            Through the Rigour+ app, you can fund a wallet that covers multiple accounts.
+                        </p>
+                        <p>
+                            We believe cost should never be a hindrance to healthcare. With our pay for me option, you can access emergency medical funding that covers your entire treatment.
+                        </p>
+                        <p>
+                            You can also generate a unique link for crowdfunding purposes that enables people to donate directly to your medical cause easily and safely while eliminating the fear of medical charity scams.
                         </p>
                     </div>
                 </div>
