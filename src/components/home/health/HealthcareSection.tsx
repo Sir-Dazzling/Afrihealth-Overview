@@ -11,19 +11,15 @@ const Healthcare = () => {
                 alt="globe" />
             <div className="space-y-5 lg:space-y-10">
                 <div>
-                    <p className="text-3xl lg:text-7xl font-bold tracking-wider">
-                        accessible <span className="text-green-500">healthcare</span>
+                    <p className="text-2xl lg:text-6xl font-bold tracking-wider">
+                        Empathetic and convenient <span className="text-green-500">healthcare</span>
                     </p>
-                    <p className="text-3xl lg:text-7xl font-bold tracking-wider">
-                        for everyone
+                    <p className="text-2xl lg:text-6xl font-bold tracking-wider">
+                        for you and your loved ones.
                     </p>
                 </div>
                 <p className="lg:w-full text-lg lg:text-3xl tracking-wider">
-                    at afrihealth we aim to create an easy and accessible flow of
-                    quality health care to everyone in africa and the world at large.
-                    The importance of quality health care is uncontested and we belive
-                    that everyone, no matter the social or economic status deserves access
-                    to premium healthcare
+                    At Afrihealth we aim to increase the quality of life regardless of location or socially determined barriers. While delivering better results, we ensure cost is never a basis to be denied premium healthcare.
                 </p>
                 <div className="flex items-center space-x-3 cursor-pointer">
                     <span className="text-blue-600 text-lg lg:text-xl tracking-wider">learn more</span>

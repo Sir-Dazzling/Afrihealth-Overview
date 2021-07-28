@@ -12,10 +12,10 @@ const BannerSection = () => {
                             <p className="font-bold text-lg lg:text-3xl">contact us</p>
                             <div>
                                 <p className="text-2xl lg:text-7xl font-bold tracking-wider">
-                                    we can&apos;t wait to hear
+                                    Questions
                                 </p>
                                 <p className="text-2xl lg:text-7xl font-bold tracking-wider">
-                                    from you!
+                                    Reach out to us
                                 </p>
                             </div>
                             <p className="text-lg lg:text-2xl tracking-wider lg:w-2/3">

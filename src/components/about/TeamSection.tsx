@@ -7,6 +7,9 @@ const TeamSection = () => {
         lg:space-y-20 font-visblyround">
             <div className="text-center space-y-10 lg:space-y-20">
                 <div>
+                    {/* <p className="text-3xl lg:text-7xl font-bold tracking-wider">
+                        Afrihealth is designed and supported by renowned medical leaders and business professionals – from expert physicians, to health care regulators, 10x developers and business administrators – who have helped steer us in the right direction.
+                    </p> */}
                     <p className="text-3xl lg:text-7xl font-bold tracking-wider">
                         meet the team whose inspiration
                     </p>
@@ -43,9 +46,8 @@ const TeamSection = () => {
                     </p>
                     <div className="text-xl lg:text-3xl tracking-wider">
                         <p>
-                            we share our vision and apassion to bring affordable healthcare to
+                            We have partnered with some of the most trusted institutions in healthcare, policy and beyond.
                         </p>
-                        <p>everyone with these organisations</p>
                     </div>
                 </div>
 
