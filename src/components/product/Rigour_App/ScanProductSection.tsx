@@ -9,15 +9,13 @@ const ScanProductSection = () => {
                 <div className="space-y-10">
                     <p className="text-white text-2xl lg:text-3xl">Rigour Plus</p>
                     <div className="text-2xl lg:text-5xl text-white font-bold tracking-wider">
-                        <p>
-                            Authenticity has never been simpler. Get access to transparent data from pharmaceutical scientists to you.
-                        </p>
+                        <p>through our robust barcode</p>
+                        <p>scanning tech, users can</p>
+                        <p>verify</p>
                     </div>
                     <div className="text-lg lg:text-2xl font-medium text-white">
-                        <p>When you buy a drug, you can now be certain of its safety through the Scan feature on the Rigour+ app. </p>
-                        <p>
-                            You just scan the GS1 barcodes or QR codes and get the Batch Manufacturing Records (BMR), NAFDAC registration number, shelf life, and a highlighted supply chain history from the manufacturer to the point of sale, giving you global traceability.
-                        </p>
+                        <p>the authencity of the drugs purchased by</p>
+                        <p>scanning the product barcode through rigour + app</p>
                     </div>
                     <div className="flex items-center flex-col lg:flex-row lg:space-x-3 space-y-5 lg:space-y-0 pb-10 lg:pb-0">
                         <img className="cursor-pointer" src="/images/product/playstore2.png" />
@@ -41,8 +39,8 @@ const ScanProductSection = () => {
                                 src="/images/product/cover3.png" />
                             <img
                                 className="absolute bottom-32 left-36"
-                                src="/images/product/scanner.png"
-                                width={350} />
+                                src="/images/product/scanner.png" 
+                                width={350}/>
                         </div>
 
                     </div>

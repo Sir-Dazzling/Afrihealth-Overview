@@ -12,17 +12,19 @@ const BannerSection = () => {
                             <div className="flex flex-col lg:space-y-5">
                                 <p className="font-bold text-lg lg:text-3xl">about us</p>
                                 <div>
-                                    <p className="text-2xl lg:text-7xl font-bold tracking-wider"><del>improving</del> Reimagining healthcare completely</p>
+                                    <p className="text-2xl lg:text-7xl font-bold tracking-wider">taking charge of the</p>
+                                    <p className="text-2xl lg:text-7xl font-bold tracking-wider">
+                                        health space one move
+                                    </p>
+                                    <p className="text-2xl lg:text-7xl font-bold tracking-wider">
+                                        at a time.
+                                    </p>
                                 </div>
                             </div>
                             <div className="text-lg lg:text-2xl tracking-wider lg:w-2/3">
-                                Afrihealth is on a mission to positively change healthcare from the ground up by connecting the best of technology and people so that health is a multiplier and no longer an additional mental burden daily
-                            </div>
-                            <div className="text-lg lg:text-2xl tracking-wider lg:w-2/3">
-                                We are shattering glass ceilings by redesigning the healthcare space through a direct harmony between the doctor and the patient.
-                            </div>
-                            <div className="text-lg lg:text-2xl tracking-wider lg:w-2/3">
-                                We believe that universal access to healthcare is only possible through the synergy between the best of science and humanities.
+                                in a bid to bridge the gap, we at afrihealth are creating an ecosystem
+                                where healthcare service providers tailored specifically to your needs
+                                can be found in rel time at the click of a button.
                             </div>
                         </div>
                     </Slide>
@@ -33,7 +35,7 @@ const BannerSection = () => {
                     className=""
                     src="/images/about/1.png" />
                 <img
-                    className="hidden absolute lg:block bottom-30 lg:bottom-32 -left-40"
+                    className="hidden absolute lg:block bottom-30 lg:bottom-10 -left-40"
                     src="/images/about/2.png" />
             </div>
         </div>

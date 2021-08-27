@@ -21,9 +21,9 @@ const RigourDetails = () => {
                     <div className="space-y-5 lg:space-y-10">
                         <div className="text-xl lg:text-4xl font-bold 
                     tracking-wider text-white space-y-1">
-                            <p>
-                                The only app you will need to get access to every essential health service. Designed with exhaustive details, innovative products and an easy interface, we promise your satisfaction.
-                            </p>
+                            <p>packed with</p>
+                            <p>special features in</p>
+                            <p>mind</p>
                         </div>
                         <div className="text-white text-lg lg:text-2xl font-medium">
                             <p>our response ambulance service</p>

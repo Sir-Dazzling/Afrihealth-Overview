@@ -43,7 +43,7 @@ const AppSection = () => {
                     </div>
                 </div>
 
-                <div className="bg-white rounded-lg lg:w-2/3 flex flex-col lg:flex-row py-5">
+                <div className="bg-white rounded-lg lg:w-2/3 flex flex-col xl:flex-row py-5">
                     <div className="rounded-3xl py-8 px-5 lg:px-10 space-y-10 items-center">
                         <div className="space-y-3">
                             <p className="text-lg lg:text-3xl font-bold">Rigour App</p>
